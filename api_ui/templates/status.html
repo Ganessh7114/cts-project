@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="page-title">/api/status</h1>
+<button class="btn" data-get="/api/status">Refresh</button>
+<pre id="result" class="result"></pre>
+<script>
+  window.addEventListener('DOMContentLoaded', () => fetchGET('/api/status', '#result'));
+</script>
+{% endblock %}

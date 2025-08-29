@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="page-title">/api/reconnect</h1>
+<p class="muted">Force the server to refresh Azure ML auth and reconnect.</p>
+<button class="btn" id="reconnect-btn">Reconnect</button>
+<pre id="result" class="result"></pre>
+
+<script>
+  document.getElementById('reconnect-btn').addEventListener('click', async () => {
+    await fetchPOST('/api/reconnect', {}, '#result');
+  });
+</script>
+{% endblock %}

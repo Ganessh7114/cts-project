@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="page-title">/api/predict</h1>
+<p class="muted">Enter the 8 features (numbers). The form sends JSON via POST.</p>
+
+<form id="predict-form" class="form">
+  <div class="grid two">
+    <label>temperature <input type="number" step="any" name="temperature" required></label>
+    <label>vibration <input type="number" step="any" name="vibration" required></label>
+    <label>error_logs <input type="number" step="1" name="error_logs" required></label>
+    <label>runtime_hours <input type="number" step="any" name="runtime_hours" required></label>
+    <label>device_age <input type="number" step="any" name="device_age" required></label>
+    <label>repairs <input type="number" step="1" name="repairs" required></label>
+    <label>pressure <input type="number" step="any" name="pressure" required></label>
+    <label>current_draw <input type="number" step="any" name="current_draw" required></label>
+  </div>
+  <button class="btn" type="submit">Predict</button>
+</form>
+
+<pre id="result" class="result"></pre>
+
+<script>
+  document.getElementById('predict-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const data = Object.fromEntries(new FormData(e.target).entries());
+    // Coerce to numbers
+    for (const k in data) data[k] = Number(data[k]);
+    await fetchPOST('/api/predict', data, '#result');
+  });
+</script>
+{% endblock %}

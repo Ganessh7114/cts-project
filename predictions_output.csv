@@ -1,0 +1,575 @@
+DeviceType,DeviceName,RuntimeHours,TemperatureC,PressureKPa,VibrationMM_S,CurrentDrawA,SignalNoiseLevel,ClimateControl,HumidityPercent,Location,OperationalCycles,UserInteractionsPerDay,LastServiceDate,ApproxDeviceAgeYears,NumRepairs,ErrorLogsCount,PredictedFailureRisk,ProcessedTimestamp
+Ultrasound Machine,Siemens Acuson,2803.35,29.96,93.39,0.591,0.811,1.35,Yes,68.68,Hospital G - West Region,841,24.02,06-12-2024,10.84,11,22,Model_Not_Available,2025-08-28T15:31:48.953983
+Dialysis Machine,Hamilton G5,1432.84,22.1,98.63,0.227,0.849,3.99,Yes,44.52,Hospital B - South Region,5866,14.54,04-11-2023,21.27,7,17,Model_Not_Available,2025-08-28T15:31:48.954501
+ECG Monitor,GE MAC 2000,4457.43,27.29,115.25,0.711,1.098,1.15,Yes,50.74,Hospital H - West Region,9746,13.86,13-10-2023,15.38,17,12,Model_Not_Available,2025-08-28T15:31:48.954501
+Infusion Pump,GE Logiq E9,491.39,19.45,109.41,0.877,0.574,0.18,No,40.23,Hospital D - West Region,4307,22.95,28-05-2025,29.45,14,19,Model_Not_Available,2025-08-28T15:31:48.955563
+Infusion Pump,Drager Fabius Trio,2177.63,34.17,99.65,0.037,0.322,1.74,Yes,37.43,Hospital E - West Region,6314,24.82,18-08-2025,0.32,18,0,Model_Not_Available,2025-08-28T15:31:49.062056
+Infusion Pump,Alaris GH,2136.35,31.11,103.61,0.565,0.975,3.09,No,55.99,Hospital D - East Region,11399,19.75,12-03-2024,34.44,11,4,Model_Not_Available,2025-08-28T15:31:49.062056
+Dialysis Machine,Baxter AK 96,6964.89,25.67,92.09,0.326,0.8,4.09,Yes,36.65,Hospital B - South Region,6186,14.22,20-11-2024,5.71,9,4,Model_Not_Available,2025-08-28T15:31:49.275032
+Infusion Pump,Zoll R Series,5360.57,28.13,96.13,0.563,0.784,2.92,No,43.23,Hospital C - East Region,1066,18.03,10-11-2023,0.48,3,1,Model_Not_Available,2025-08-28T15:31:49.275555
+Ultrasound Machine,GE Logiq E9,3931.71,38.18,113.53,0.838,0.856,4.28,Yes,50.93,Hospital H - East Region,4233,14.59,30-04-2025,30.29,15,1,Model_Not_Available,2025-08-28T15:31:49.377403
+Defibrillator,GE Aisys,3735.66,30.52,93.51,0.556,0.82,0.72,Yes,47.34,Hospital G - North Region,10937,22.79,16-03-2024,12.4,10,2,Model_Not_Available,2025-08-28T15:31:49.377403
+Defibrillator,Drager V500,6814.45,27.94,110.94,0.706,1.172,2.22,No,33.77,Hospital G - North Region,8775,14.24,03-09-2023,21.04,6,17,Model_Not_Available,2025-08-28T15:31:49.540227
+ECG Monitor,Alaris GH,1552.75,36.16,107.91,0.586,0.783,4.72,Yes,36.67,Hospital E - East Region,9670,16.85,29-09-2023,5.85,11,4,Model_Not_Available,2025-08-28T15:31:49.541250
+CT Scanner,Drager Fabius Trio,2656.73,33.0,100.96,0.448,0.621,1.19,No,66.25,Hospital C - West Region,8773,0.05,25-12-2024,12.66,11,14,Model_Not_Available,2025-08-28T15:31:49.757375
+Patient Ventilator,Alaris GH,1747.44,33.6,95.32,0.643,1.158,1.84,No,24.16,Hospital D - North Region,6121,1.15,22-08-2024,0.95,17,6,Model_Not_Available,2025-08-28T15:31:49.859067
+Anesthesia Machine,HeartStart FRx,3153.7,33.91,109.55,0.749,1.439,1.15,Yes,52.19,Hospital C - West Region,10716,16.55,30-07-2025,5.32,18,11,Model_Not_Available,2025-08-28T15:31:49.859067
+Anesthesia Machine,Zoll R Series,8701.28,32.28,92.31,0.307,1.278,3.59,No,65.28,Hospital F - West Region,9300,19.59,05-01-2025,19.8,10,19,Model_Not_Available,2025-08-28T15:31:50.071385
+ECG Monitor,Smiths Medfusion,4374.97,28.06,116.32,0.322,0.848,0.47,No,51.23,Hospital F - Central Region,6842,12.84,30-01-2024,8.07,7,15,Model_Not_Available,2025-08-28T15:31:50.174033
+Ultrasound Machine,GE MAC 2000,7225.09,16.77,104.04,0.315,0.22,3.15,Yes,24.58,Hospital C - North Region,3834,6.65,03-09-2024,23.73,11,18,Model_Not_Available,2025-08-28T15:31:50.174033
+Patient Ventilator,Zoll R Series,1901.5,25.11,91.42,0.703,0.792,2.99,No,56.4,Hospital D - North Region,4801,21.61,19-12-2023,6.81,12,10,Model_Not_Available,2025-08-28T15:31:50.275287
+Patient Ventilator,Lifepak 20,5921.0,30.05,115.12,0.705,1.076,3.27,No,55.34,Hospital H - Central Region,6726,13.49,13-08-2025,25.46,12,1,Model_Not_Available,2025-08-28T15:31:50.385135
+Patient Ventilator,Drager Fabius Trio,3251.96,35.81,90.49,0.504,0.783,4.58,Yes,47.23,Hospital F - Central Region,3467,8.02,11-01-2024,9.24,19,6,Model_Not_Available,2025-08-28T15:31:50.556694
+Ultrasound Machine,Lifepak 20,8896.04,36.52,109.19,0.225,0.227,0.08,Yes,26.28,Hospital D - West Region,4560,11.16,19-06-2025,29.9,13,12,Model_Not_Available,2025-08-28T15:31:50.558208
+Defibrillator,GE Aisys,2870.4,27.64,106.24,0.624,0.553,1.33,Yes,41.17,Hospital G - South Region,3724,23.38,12-10-2024,10.11,9,13,Model_Not_Available,2025-08-28T15:31:50.665456
+Ultrasound Machine,Siemens S2000,8222.09,16.4,119.36,0.459,1.384,1.65,Yes,51.87,Hospital C - North Region,8190,4.34,12-05-2024,6.01,6,6,Model_Not_Available,2025-08-28T15:31:50.877817
+Patient Ventilator,Zoll R Series,6126.56,33.43,107.06,0.139,0.784,2.45,No,68.97,Hospital D - Central Region,4167,16.15,02-12-2023,33.13,1,2,Model_Not_Available,2025-08-28T15:31:50.877817
+Dialysis Machine,Philips HeartStrart,1123.41,30.43,109.4,0.633,0.736,4.89,No,40.62,Hospital A - East Region,11633,5.13,23-08-2025,3.73,3,20,Model_Not_Available,2025-08-28T15:31:51.094838
+Defibrillator,GE Revolution,5513.21,28.97,106.68,0.638,1.192,0.58,No,53.97,Hospital D - North Region,10456,17.15,04-05-2025,10.46,10,11,Model_Not_Available,2025-08-28T15:31:51.205159
+CT Scanner,Drager V500,8418.28,24.49,107.4,0.032,1.362,0.75,No,42.64,Hospital H - South Region,3975,15.12,19-05-2025,13.75,1,10,Model_Not_Available,2025-08-28T15:31:51.205945
+Defibrillator,Philips EPIQ,1168.23,31.61,117.34,0.98,0.919,3.06,No,46.26,Hospital D - South Region,7219,7.31,19-04-2024,26.95,15,16,Model_Not_Available,2025-08-28T15:31:51.320664
+Patient Ventilator,Baxter AK 96,7836.84,23.96,95.59,0.399,0.859,3.23,Yes,55.21,Hospital B - South Region,6850,14.23,24-02-2025,35.69,3,6,Model_Not_Available,2025-08-28T15:31:51.430315
+CT Scanner,Zoll R Series,801.26,16.2,112.75,0.651,0.975,0.77,No,30.51,Hospital C - North Region,9187,17.45,19-02-2025,10.66,3,18,Model_Not_Available,2025-08-28T15:31:51.476637
+Patient Ventilator,Datex Ohmeda S5,4999.37,30.9,98.3,0.49,0.73,4.76,No,29.15,Hospital H - Central Region,1063,13.07,10-09-2024,26.8,7,1,Model_Not_Available,2025-08-28T15:31:51.576677
+Defibrillator,Lifepak 20,8507.51,20.0,103.0,0.97,0.623,1.32,No,63.76,Hospital F - South Region,527,20.73,17-05-2025,2.29,0,18,Model_Not_Available,2025-08-28T15:31:51.685686
+Ultrasound Machine,Phillips PageWriter,8709.06,19.09,114.65,0.846,1.282,3.22,No,51.66,Hospital D - North Region,7115,0.19,06-03-2025,3.31,12,2,Model_Not_Available,2025-08-28T15:31:51.685686
+Dialysis Machine,Smiths Medfusion,6400.89,31.37,116.31,0.992,0.708,1.63,Yes,31.57,Hospital B - South Region,6825,18.34,08-12-2024,8.79,14,9,Model_Not_Available,2025-08-28T15:31:51.898860
+Dialysis Machine,Siemens Acuson,9160.09,34.39,100.77,0.94,1.45,0.36,No,60.66,Hospital B - North Region,2102,1.83,23-06-2024,2.17,15,18,Model_Not_Available,2025-08-28T15:31:52.014222
+Anesthesia Machine,GE Aisys,6950.28,20.69,111.63,0.894,0.309,1.73,Yes,60.87,Hospital F - North Region,6554,19.48,17-02-2024,0.39,1,5,Model_Not_Available,2025-08-28T15:31:52.015050
+Defibrillator,Phillips PageWriter,665.24,22.1,97.09,0.958,0.349,1.11,Yes,25.98,Hospital D - South Region,2628,11.45,14-10-2023,25.35,19,2,Model_Not_Available,2025-08-28T15:31:52.129224
+CT Scanner,Drager Fabius Trio,979.03,28.32,97.75,0.484,0.985,4.33,No,24.96,Hospital A - South Region,2246,0.41,19-12-2024,2.29,4,8,Model_Not_Available,2025-08-28T15:31:52.340746
+Anesthesia Machine,Baxter AK 96,7617.97,36.33,116.11,0.947,0.392,4.62,No,38.49,Hospital A - North Region,7800,9.71,01-09-2023,12.91,5,2,Model_Not_Available,2025-08-28T15:31:52.340746
+Anesthesia Machine,Phillips PageWriter,7402.5,19.1,115.2,0.654,1.019,2.87,No,25.68,Hospital F - North Region,8887,12.22,03-01-2024,25.64,5,2,Model_Not_Available,2025-08-28T15:31:52.396988
+ECG Monitor,Puritan Bennett 980,6315.06,22.56,95.79,0.211,1.339,0.04,No,45.39,Hospital A - Central Region,803,20.7,09-08-2025,10.08,17,16,Model_Not_Available,2025-08-28T15:31:52.506831
+Anesthesia Machine,Philips HeartStrart,760.35,25.12,106.52,0.817,1.22,0.14,No,64.36,Hospital A - Central Region,6083,9.19,06-08-2025,14.52,7,17,Model_Not_Available,2025-08-28T15:31:52.607320
+CT Scanner,NxStage System One,8829.07,32.98,114.25,0.121,0.357,4.79,No,20.3,Hospital H - West Region,8660,21.84,09-03-2025,20.23,17,15,Model_Not_Available,2025-08-28T15:31:52.607320
+Infusion Pump,Philips EPIQ,8157.86,22.54,106.16,0.854,1.276,3.66,Yes,28.81,Hospital D - Central Region,11865,12.37,19-12-2023,11.66,13,19,Model_Not_Available,2025-08-28T15:31:52.817722
+Anesthesia Machine,GE Logiq E9,4188.72,19.73,114.02,0.281,0.363,0.47,Yes,27.28,Hospital H - East Region,10364,5.67,31-10-2023,34.11,11,17,Model_Not_Available,2025-08-28T15:31:53.023170
+ECG Monitor,Puritan Bennett 980,7132.07,36.15,112.79,0.557,1.112,0.03,Yes,46.51,Hospital G - Central Region,6917,6.9,08-08-2025,11.67,8,7,Model_Not_Available,2025-08-28T15:31:53.023892
+Anesthesia Machine,GE Aisys,5437.93,18.93,112.65,0.934,0.508,1.67,No,33.59,Hospital H - South Region,2644,21.44,11-01-2024,29.64,19,18,Model_Not_Available,2025-08-28T15:31:53.131871
+Defibrillator,GE MAC 2000,8505.5,34.76,116.84,0.434,1.485,2.71,Yes,61.15,Hospital H - South Region,958,17.09,11-11-2024,28.58,8,9,Model_Not_Available,2025-08-28T15:31:53.240728
+CT Scanner,Zoll R Series,8801.82,36.94,92.28,0.191,0.385,2.16,No,37.32,Hospital A - East Region,11608,2.93,08-01-2024,35.84,14,19,Model_Not_Available,2025-08-28T15:31:53.241195
+Patient Ventilator,Fresenius 4008,8054.7,19.02,95.72,0.627,0.826,1.88,No,67.6,Hospital H - North Region,1033,4.47,26-04-2025,26.02,6,7,Model_Not_Available,2025-08-28T15:31:53.310033
+CT Scanner,GE Aisys,9574.61,39.53,97.53,0.263,0.545,4.5,No,30.52,Hospital B - North Region,8471,18.95,29-04-2025,10.78,4,21,Model_Not_Available,2025-08-28T15:31:53.422484
+Patient Ventilator,Hamilton G5,4457.64,20.56,109.37,0.796,0.738,1.89,No,31.7,Hospital H - North Region,6904,15.57,04-05-2024,32.74,5,3,Model_Not_Available,2025-08-28T15:31:53.630045
+Anesthesia Machine,Drager V500,3650.58,39.69,114.71,0.914,0.734,0.61,Yes,52.79,Hospital F - Central Region,2968,21.33,03-08-2025,5.47,9,17,Model_Not_Available,2025-08-28T15:31:53.630644
+CT Scanner,Philips Ingenuity,5074.97,20.29,102.49,0.528,1.129,4.21,Yes,30.97,Hospital C - South Region,187,14.41,01-12-2024,2.25,18,14,Model_Not_Available,2025-08-28T15:31:53.842215
+Infusion Pump,GE Aisys,9834.05,16.95,98.97,0.243,1.425,0.61,Yes,37.47,Hospital D - North Region,10823,0.08,14-10-2023,21.71,17,17,Model_Not_Available,2025-08-28T15:31:53.842215
+Anesthesia Machine,Drager Fabius Trio,163.53,28.18,117.19,0.855,1.121,1.55,Yes,38.88,Hospital H - West Region,7934,20.51,05-12-2024,35.44,17,15,Model_Not_Available,2025-08-28T15:31:54.065193
+Patient Ventilator,Baxter Flo-Gard,5769.37,29.27,108.63,0.558,0.654,1.27,Yes,50.62,Hospital D - West Region,97,14.35,30-09-2023,32.01,9,22,Model_Not_Available,2025-08-28T15:31:54.171084
+Infusion Pump,HeartStart FRx,8900.16,26.94,106.25,0.249,1.245,1.15,No,50.16,Hospital B - West Region,8015,15.41,17-12-2024,3.96,1,9,Model_Not_Available,2025-08-28T15:31:54.171084
+Dialysis Machine,Hamilton G5,4783.72,38.48,110.29,0.563,0.305,1.63,Yes,60.28,Hospital D - North Region,8525,24.61,03-02-2025,28.71,0,15,Model_Not_Available,2025-08-28T15:31:54.284932
+Ultrasound Machine,Philips HeartStrart,8552.38,36.68,119.21,0.273,0.936,2.41,No,33.21,Hospital H - South Region,4294,18.5,19-02-2025,29.38,8,8,Model_Not_Available,2025-08-28T15:31:54.332197
+ECG Monitor,Philips EPIQ,4172.4,17.53,117.19,0.628,1.235,1.3,No,44.01,Hospital E - South Region,10854,19.95,27-01-2024,11.74,19,7,Model_Not_Available,2025-08-28T15:31:54.333493
+Ultrasound Machine,Datex Ohmeda S5,2237.45,21.91,101.24,0.782,0.624,4.26,No,28.31,Hospital A - South Region,5736,7.47,09-11-2024,22.43,7,1,2,2025-08-28T15:35:41.499793
+Dialysis Machine,GE Revolution,2612.31,30.67,107.02,0.008,0.459,1.64,Yes,33.16,Hospital A - North Region,6665,10.87,13-07-2025,1.68,17,18,0,2025-08-28T15:35:41.614128
+Ultrasound Machine,GE Logiq E9,8670.1,20.14,96.26,0.221,1.092,0.39,No,26.38,Hospital G - North Region,5719,3.04,11-07-2024,27.03,5,2,0,2025-08-28T15:35:41.635398
+Defibrillator,Philips Ingenuity,720.4,24.75,95.25,0.363,0.696,0.15,Yes,41.43,Hospital D - East Region,10616,7.6,21-01-2024,22.2,18,3,2,2025-08-28T15:35:41.659230
+Ultrasound Machine,GE Aisys,4027.77,24.77,98.25,0.79,0.962,2.22,Yes,59.72,Hospital D - East Region,7313,5.69,19-12-2024,15.41,9,11,0,2025-08-28T15:35:41.680129
+Patient Ventilator,Philips EPIQ,4759.06,23.47,109.76,0.866,0.37,0.51,Yes,54.67,Hospital F - West Region,8709,6.6,15-12-2023,27.4,5,2,0,2025-08-28T15:35:41.703760
+Infusion Pump,Datex Ohmeda S5,4602.44,33.88,97.38,0.176,0.349,4.04,Yes,30.03,Hospital D - West Region,7471,5.28,05-06-2025,8.53,0,2,1,2025-08-28T15:35:41.726368
+Infusion Pump,Datex Ohmeda S5,568.34,27.8,103.85,0.875,1.333,3.8,No,65.31,Hospital F - North Region,10461,21.52,21-07-2025,24.48,15,3,1,2025-08-28T15:35:41.746351
+ECG Monitor,Alaris GH,8336.42,30.45,116.49,0.855,0.805,3.79,No,21.93,Hospital A - West Region,6502,15.19,01-08-2025,14.76,9,1,2,2025-08-28T15:35:41.865404
+ECG Monitor,Lifepak 20,698.37,26.97,95.22,0.099,0.939,1.98,No,25.56,Hospital F - Central Region,8724,22.73,07-05-2024,15.58,0,22,2,2025-08-28T15:35:41.979421
+ECG Monitor,Zoll R Series,2403.56,22.13,99.17,0.022,1.167,1.83,Yes,63.61,Hospital D - East Region,5738,23.1,14-09-2023,27.32,2,16,2,2025-08-28T15:35:42.120849
+Dialysis Machine,Siemens S2000,6048.08,18.36,112.37,0.884,1.077,2.37,No,60.74,Hospital F - North Region,744,2.2,03-05-2024,28.88,13,22,0,2025-08-28T15:35:42.149298
+Dialysis Machine,Fresenius 4008,7381.08,24.04,100.67,0.972,0.193,2.7,Yes,48.95,Hospital D - North Region,1602,9.4,01-06-2025,6.71,9,2,0,2025-08-28T15:35:42.275390
+ECG Monitor,Baxter Flo-Gard,2911.37,21.14,108.82,0.572,1.441,1.17,Yes,45.0,Hospital E - Central Region,9535,20.26,01-02-2024,18.36,6,19,2,2025-08-28T15:35:42.296918
+Infusion Pump,Siemens S2000,7657.81,20.07,93.72,0.617,0.101,0.36,No,47.84,Hospital A - North Region,9135,8.07,20-07-2025,26.99,10,2,0,2025-08-28T15:35:42.425118
+Infusion Pump,Lifepak 20,3426.68,25.38,96.08,0.233,0.721,0.19,Yes,49.62,Hospital E - West Region,8541,1.25,03-03-2025,20.89,14,9,0,2025-08-28T15:35:42.542105
+Ultrasound Machine,GE Revolution,3897.85,35.44,93.28,0.014,0.162,1.57,No,64.27,Hospital B - South Region,4908,6.81,20-06-2024,9.88,6,22,0,2025-08-28T15:35:42.557715
+Infusion Pump,Lifepak 20,4740.55,25.91,102.58,0.269,0.264,1.06,No,33.3,Hospital F - South Region,10602,7.17,25-12-2023,19.83,14,7,0,2025-08-28T15:35:42.779937
+Ultrasound Machine,Baxter Flo-Gard,5782.4,38.47,91.11,0.891,0.82,3.89,Yes,49.48,Hospital D - North Region,5444,23.62,21-09-2024,5.15,1,3,1,2025-08-28T15:35:42.800373
+ECG Monitor,Datex Ohmeda S5,7064.83,17.58,114.55,0.641,0.424,2.69,No,42.67,Hospital A - North Region,2675,0.64,26-07-2025,28.36,16,13,2,2025-08-28T15:35:42.926252
+Defibrillator,Datex Ohmeda S5,4588.98,35.66,103.56,0.659,0.928,3.27,No,26.17,Hospital B - Central Region,4213,11.77,02-07-2025,8.69,17,20,0,2025-08-28T15:35:43.087106
+Defibrillator,GE Aisys,9999.07,33.44,99.23,0.223,1.463,0.09,Yes,56.75,Hospital F - South Region,8686,3.81,19-09-2023,15.09,18,14,0,2025-08-28T15:35:43.107367
+CT Scanner,Baxter Flo-Gard,1548.93,25.97,107.85,0.398,0.364,4.11,No,54.48,Hospital A - Central Region,8842,5.66,17-10-2024,35.28,0,6,1,2025-08-28T15:35:43.348086
+ECG Monitor,GE Logiq E9,7581.17,30.24,113.63,0.951,1.216,4.89,No,66.95,Hospital E - North Region,9027,25.99,12-08-2024,13.38,2,7,2,2025-08-28T15:35:43.369867
+Defibrillator,Baxter Flo-Gard,1554.77,39.21,90.19,0.515,1.377,0.35,Yes,55.22,Hospital F - Central Region,5218,13.48,11-01-2025,32.02,1,20,1,2025-08-28T15:44:49.350516
+Ultrasound Machine,Drager Fabius Trio,3471.26,37.38,106.42,0.605,0.935,1.41,Yes,64.12,Hospital F - Central Region,2851,21.58,30-07-2025,28.81,0,3,2,2025-08-28T15:44:49.465616
+Anesthesia Machine,GE Aisys,7644.07,38.0,103.15,0.186,1.094,3.65,No,41.65,Hospital A - Central Region,11846,20.29,14-09-2023,7.32,10,9,0,2025-08-28T15:44:49.484411
+ECG Monitor,Phillips PageWriter,9791.05,36.59,117.29,0.076,0.531,3.24,Yes,29.15,Hospital E - West Region,8198,24.46,20-06-2024,22.2,5,5,2,2025-08-28T15:44:49.506817
+Dialysis Machine,Datex Ohmeda S5,6275.39,26.21,106.62,0.496,0.237,2.12,Yes,30.28,Hospital A - Central Region,9066,20.0,15-09-2024,3.98,4,11,0,2025-08-28T15:44:49.530364
+Defibrillator,Smiths Medfusion,5097.37,27.92,91.82,0.213,1.138,0.1,No,67.94,Hospital G - West Region,4670,8.75,19-02-2024,28.86,12,1,0,2025-08-28T15:44:49.551730
+Defibrillator,HeartStart FRx,3806.85,27.12,106.49,0.267,1.116,1.09,Yes,45.83,Hospital F - East Region,691,8.09,11-10-2024,29.3,8,3,0,2025-08-28T15:44:49.672138
+CT Scanner,GE MAC 2000,8140.46,33.16,114.76,0.58,0.987,2.94,Yes,30.52,Hospital F - West Region,4812,3.19,01-12-2024,35.54,11,0,0,2025-08-28T15:44:49.785414
+Patient Ventilator,Smiths Medfusion,6368.69,36.2,114.43,0.136,0.278,0.1,No,64.07,Hospital E - North Region,7642,7.11,12-03-2025,27.27,15,16,0,2025-08-28T15:44:49.809935
+CT Scanner,GE MAC 2000,4339.61,31.45,97.78,0.695,0.218,0.42,No,31.81,Hospital C - Central Region,11190,9.66,16-10-2023,2.98,9,19,0,2025-08-28T15:45:49.066492
+Anesthesia Machine,Drager V500,367.97,29.53,116.28,0.295,1.237,0.74,Yes,63.03,Hospital B - Central Region,10574,0.64,08-12-2023,2.45,9,12,0,2025-08-28T15:45:49.205013
+CT Scanner,Siemens Acuson,230.8,26.07,116.44,0.539,0.91,2.57,No,53.28,Hospital D - West Region,8623,9.3,28-06-2025,7.32,8,12,0,2025-08-28T15:45:49.228660
+Patient Ventilator,Siemens Acuson,8206.92,38.94,102.1,0.666,0.788,2.29,No,51.84,Hospital D - Central Region,9320,20.76,07-12-2024,5.82,3,13,0,2025-08-28T15:45:49.247534
+Dialysis Machine,Siemens S2000,3402.67,36.35,112.71,0.239,0.58,4.42,Yes,29.38,Hospital A - West Region,224,17.7,24-05-2024,25.02,11,22,0,2025-08-28T15:45:49.270570
+Anesthesia Machine,NxStage System One,8458.85,27.05,92.84,0.761,0.72,1.12,No,63.76,Hospital D - East Region,11062,4.65,26-12-2024,11.71,14,8,0,2025-08-28T15:45:49.290548
+Defibrillator,Siemens Acuson,9939.45,39.65,115.59,0.545,1.028,2.81,No,54.2,Hospital H - East Region,6713,12.15,10-08-2025,3.81,8,15,0,2025-08-28T15:45:49.312387
+ECG Monitor,Datex Ohmeda S5,6818.84,22.65,93.23,0.935,1.472,2.38,Yes,20.14,Hospital B - North Region,6866,23.2,14-06-2024,0.45,12,12,2,2025-08-28T15:45:49.336768
+Defibrillator,GE Revolution,6096.1,28.44,108.3,0.375,0.887,4.13,No,42.7,Hospital E - East Region,6196,23.46,09-08-2025,23.53,8,5,0,2025-08-28T15:45:49.466390
+Defibrillator,GE MAC 2000,1127.29,24.21,100.71,0.898,0.836,3.23,Yes,36.28,Hospital F - West Region,10315,1.32,08-09-2023,26.79,8,17,0,2025-08-28T15:45:49.683647
+ECG Monitor,Drager V500,8141.24,31.51,114.76,0.928,0.535,4.45,No,22.39,Hospital D - West Region,5891,2.92,06-05-2025,13.99,12,14,2,2025-08-28T15:45:49.869799
+Anesthesia Machine,Phillips PageWriter,258.19,39.87,119.57,0.73,0.217,0.5,Yes,29.94,Hospital E - West Region,9223,24.26,26-11-2023,24.09,11,2,2,2025-08-28T15:45:49.888012
+Dialysis Machine,Fresenius 4008,4411.49,28.52,114.66,0.556,1.037,3.47,No,44.33,Hospital H - North Region,10125,13.67,03-02-2025,9.93,7,19,0,2025-08-28T15:45:50.031573
+Defibrillator,NxStage System One,4107.81,21.28,107.91,0.344,0.765,4.27,Yes,47.61,Hospital C - North Region,7035,22.68,20-03-2025,19.84,13,16,0,2025-08-28T15:45:50.071376
+Anesthesia Machine,GE MAC 2000,9790.58,26.15,100.26,0.164,0.272,3.48,No,23.95,Hospital B - West Region,5061,1.56,11-10-2024,33.21,18,5,0,2025-08-28T15:45:50.210370
+Infusion Pump,Datex Ohmeda S5,7065.96,35.37,112.82,0.258,0.514,1.15,No,60.99,Hospital E - South Region,523,17.31,03-11-2023,35.49,5,13,0,2025-08-28T15:45:50.231237
+ECG Monitor,Zoll R Series,6807.88,26.56,97.57,0.386,1.147,1.66,No,38.86,Hospital D - North Region,4902,0.15,13-08-2025,19.26,10,0,1,2025-08-28T15:45:50.255756
+Patient Ventilator,NxStage System One,8529.61,27.34,105.23,0.382,0.468,2.01,No,53.52,Hospital H - North Region,6618,6.82,18-03-2025,15.35,10,20,0,2025-08-28T15:45:50.271871
+Dialysis Machine,Alaris GH,3738.85,20.33,109.98,0.039,0.649,4.66,No,42.26,Hospital F - North Region,9858,0.14,28-09-2024,29.21,7,0,0,2025-08-28T15:45:50.499646
+CT Scanner,Drager V500,7924.36,28.71,119.25,0.975,0.79,1.92,Yes,60.89,Hospital F - East Region,8081,0.67,27-08-2024,26.86,18,1,0,2025-08-28T15:45:50.623989
+Infusion Pump,Alaris GH,482.86,39.96,101.16,0.424,1.268,1.78,Yes,42.85,Hospital E - Central Region,480,22.11,15-08-2025,7.81,4,13,0,2025-08-28T15:45:50.799539
+Defibrillator,Phillips PageWriter,9787.59,18.1,105.77,0.814,1.259,3.05,Yes,38.31,Hospital B - East Region,6179,7.62,11-03-2025,34.06,4,14,0,2025-08-28T15:45:50.823135
+Defibrillator,GE Logiq E9,5852.0,35.44,115.13,0.419,0.823,4.3,No,51.43,Hospital B - South Region,11772,4.87,29-07-2024,9.0,16,1,2,2025-08-28T15:45:50.943825
+Ultrasound Machine,Puritan Bennett 980,956.85,24.57,92.22,0.375,0.617,3.73,No,53.92,Hospital D - North Region,3779,10.49,30-11-2024,12.95,11,12,0,2025-08-28T15:45:51.177751
+Dialysis Machine,Philips HeartStrart,300.32,36.24,104.95,0.985,0.423,3.54,No,44.31,Hospital A - South Region,3689,9.52,30-08-2024,24.08,17,15,0,2025-08-28T15:45:51.196846
+Patient Ventilator,NxStage System One,6561.17,38.73,93.53,0.306,0.676,2.83,No,62.88,Hospital G - East Region,7832,7.54,11-07-2024,27.04,15,11,0,2025-08-28T15:45:51.221235
+Anesthesia Machine,HeartStart FRx,9363.11,19.12,101.54,0.484,1.465,4.25,Yes,45.66,Hospital B - East Region,5536,3.07,16-05-2025,19.22,6,14,0,2025-08-28T15:45:51.342531
+CT Scanner,GE Logiq E9,3219.4,19.33,115.43,0.338,0.288,1.03,Yes,27.29,Hospital B - Central Region,3304,14.52,19-07-2024,33.51,18,11,0,2025-08-28T15:45:51.468861
+Defibrillator,Zoll R Series,9992.56,32.5,114.93,0.526,0.382,3.44,Yes,41.04,Hospital F - West Region,10578,9.92,16-08-2025,13.94,11,0,1,2025-08-28T15:45:51.487899
+Patient Ventilator,Phillips PageWriter,6010.74,36.47,102.02,0.93,0.92,1.67,No,20.39,Hospital C - North Region,10106,4.37,07-07-2024,15.31,5,21,0,2025-08-28T15:45:51.607491
+Ultrasound Machine,GE Logiq E9,3262.48,39.85,105.09,0.816,1.1,2.29,Yes,28.09,Hospital B - North Region,315,12.62,19-02-2024,0.78,15,20,0,2025-08-28T15:45:51.781766
+Anesthesia Machine,Drager V500,594.13,28.74,91.95,0.084,0.489,2.7,No,34.41,Hospital A - South Region,8100,7.89,26-12-2023,29.95,16,21,0,2025-08-28T15:45:51.807799
+Anesthesia Machine,Siemens S2000,6842.82,34.77,92.39,0.148,0.629,2.17,Yes,21.31,Hospital H - East Region,1381,0.93,15-07-2025,34.83,5,7,0,2025-08-28T15:45:51.923890
+Patient Ventilator,Zoll R Series,3908.6,31.77,90.1,0.014,1.419,2.39,No,28.75,Hospital E - South Region,270,21.43,23-07-2025,32.31,5,12,0,2025-08-28T15:45:52.144534
+Ultrasound Machine,NxStage System One,5033.06,34.08,96.94,0.842,0.7,1.56,Yes,45.18,Hospital A - North Region,6075,9.08,16-04-2025,7.99,7,18,0,2025-08-28T15:45:52.162856
+CT Scanner,Datex Ohmeda S5,7692.46,25.99,114.84,0.436,0.206,0.81,Yes,36.84,Hospital A - North Region,5851,4.9,19-06-2025,0.74,18,16,0,2025-08-28T15:45:52.183522
+Patient Ventilator,GE Logiq E9,582.66,16.21,100.94,0.251,0.206,1.65,Yes,55.98,Hospital G - East Region,7577,14.01,07-12-2024,2.99,12,9,0,2025-08-28T15:45:52.309440
+Infusion Pump,Baxter AK 96,9264.9,33.76,102.49,0.435,1.169,1.82,No,30.37,Hospital D - South Region,3749,7.07,24-03-2024,27.26,0,17,0,2025-08-28T15:45:52.428555
+Dialysis Machine,Philips EPIQ,2777.32,18.79,100.54,0.58,1.001,1.68,No,34.93,Hospital E - East Region,7825,2.42,24-12-2023,8.9,12,6,0,2025-08-28T15:45:52.450449
+Anesthesia Machine,Phillips PageWriter,8478.76,34.58,94.59,0.435,1.184,2.86,Yes,32.47,Hospital G - Central Region,3122,13.53,01-04-2024,2.7,16,7,0,2025-08-28T15:45:52.578821
+ECG Monitor,Drager Fabius Trio,8686.88,33.55,93.32,0.779,0.258,2.86,No,60.44,Hospital B - Central Region,7631,10.42,25-06-2024,15.47,11,21,2,2025-08-28T15:45:52.779636
+Dialysis Machine,Datex Ohmeda S5,593.33,28.82,103.85,0.351,0.556,3.77,Yes,37.16,Hospital H - South Region,8583,20.36,19-01-2025,26.15,12,0,1,2025-08-28T15:45:52.824725
+Dialysis Machine,Smiths Medfusion,8100.2,17.25,116.48,0.739,1.368,4.93,Yes,59.94,Hospital D - South Region,3476,3.95,13-10-2023,0.7,16,20,0,2025-08-28T15:45:52.946611
+Ultrasound Machine,Hamilton G5,6770.53,30.4,95.7,0.967,0.577,1.69,Yes,58.24,Hospital G - East Region,455,3.87,17-07-2025,19.09,6,19,2,2025-08-28T15:45:53.069512
+Patient Ventilator,Siemens S2000,9118.69,27.9,108.36,0.347,0.924,3.77,Yes,68.17,Hospital D - Central Region,6095,3.72,15-09-2023,2.91,15,16,0,2025-08-28T15:45:53.090467
+Defibrillator,Baxter AK 96,7039.25,25.06,112.93,0.672,0.324,1.47,No,52.47,Hospital B - South Region,245,22.19,30-01-2024,0.16,1,20,0,2025-08-28T15:45:53.219609
+CT Scanner,Philips HeartStrart,3771.88,18.69,114.83,0.611,0.919,4.7,No,69.26,Hospital E - North Region,5995,18.61,25-03-2025,1.42,11,18,0,2025-08-28T15:45:53.241156
+Anesthesia Machine,Siemens Acuson,550.38,20.71,112.57,0.264,0.599,2.0,No,30.8,Hospital A - West Region,8485,16.51,03-11-2023,4.88,13,15,0,2025-08-28T15:45:53.357250
+Patient Ventilator,GE Revolution,308.83,22.88,110.39,0.964,1.009,0.94,No,28.08,Hospital C - South Region,6066,1.35,22-05-2025,34.98,11,0,1,2025-08-28T15:45:53.707484
+Infusion Pump,Philips EPIQ,3999.17,22.08,103.12,0.181,0.259,0.22,Yes,61.18,Hospital E - Central Region,9801,19.31,02-02-2025,7.17,19,20,0,2025-08-28T15:45:53.765097
+ECG Monitor,Siemens Acuson,6395.34,16.9,106.29,0.897,0.694,4.81,Yes,25.94,Hospital B - Central Region,11753,7.88,29-06-2025,6.83,11,17,2,2025-08-28T15:45:53.943526
+Infusion Pump,Phillips PageWriter,1089.74,36.7,114.77,0.104,1.064,3.64,No,26.3,Hospital B - South Region,6125,25.58,24-11-2023,14.55,6,20,0,2025-08-28T15:45:53.963057
+Infusion Pump,Alaris GH,959.01,17.66,116.97,0.717,1.067,3.82,No,67.16,Hospital G - North Region,179,18.47,26-01-2024,30.41,18,9,0,2025-08-28T15:45:54.085348
+Anesthesia Machine,Datex Ohmeda S5,6102.19,23.97,106.21,0.807,0.936,1.76,No,25.59,Hospital G - East Region,2948,25.68,22-12-2023,4.8,15,21,0,2025-08-28T15:45:54.119891
+Defibrillator,Philips Ingenuity,2806.07,27.4,90.23,0.454,0.46,2.96,No,27.39,Hospital A - Central Region,4435,8.0,01-02-2025,21.88,11,16,0,2025-08-28T15:45:54.144992
+Defibrillator,Siemens S2000,3142.46,26.69,102.88,0.82,0.888,0.43,No,44.04,Hospital D - Central Region,1574,4.0,28-10-2024,24.58,5,14,0,2025-08-28T15:45:54.168873
+CT Scanner,Philips HeartStrart,2979.4,32.23,92.77,0.216,0.104,3.74,Yes,25.26,Hospital D - East Region,2994,12.33,03-11-2024,22.26,4,18,0,2025-08-28T15:45:54.290109
+Anesthesia Machine,Baxter Flo-Gard,9423.0,38.37,97.38,0.957,0.364,3.75,Yes,50.95,Hospital E - North Region,10060,18.83,07-11-2023,21.66,6,1,0,2025-08-28T15:45:54.312060
+ECG Monitor,Drager V500,168.07,25.04,95.99,0.795,1.26,1.29,Yes,55.87,Hospital H - South Region,11392,8.3,06-09-2024,10.81,11,0,1,2025-08-28T15:45:54.536201
+CT Scanner,Siemens Acuson,3046.57,21.92,116.95,0.636,0.484,1.87,No,57.63,Hospital C - North Region,5970,8.47,22-08-2025,6.23,13,22,0,2025-08-28T15:45:54.755769
+Dialysis Machine,Drager Fabius Trio,2737.0,28.51,98.49,0.025,0.876,2.57,No,52.7,Hospital G - Central Region,8746,18.47,04-01-2024,21.28,2,5,2,2025-08-28T15:45:54.826987
+Patient Ventilator,Baxter AK 96,3958.35,38.19,117.92,0.538,0.525,2.72,Yes,33.98,Hospital H - West Region,1207,25.36,03-10-2024,19.19,5,5,0,2025-08-28T15:45:54.957835
+Ultrasound Machine,Baxter Flo-Gard,2686.48,19.6,112.35,0.25,0.328,2.99,Yes,44.29,Hospital C - East Region,4091,24.74,16-12-2024,21.0,15,12,0,2025-08-28T15:45:54.992928
+Anesthesia Machine,Siemens S2000,9018.46,18.0,107.32,0.21,0.164,1.47,Yes,63.02,Hospital F - West Region,8866,21.0,06-06-2024,29.81,15,18,0,2025-08-28T15:45:55.122178
+Patient Ventilator,Philips Ingenuity,806.97,16.72,112.29,0.97,0.165,3.93,No,61.35,Hospital C - South Region,4845,9.36,01-10-2024,19.2,15,20,0,2025-08-28T15:45:55.151829
+Patient Ventilator,Philips Ingenuity,1539.44,38.61,95.38,0.208,0.826,1.74,No,36.27,Hospital H - North Region,5821,16.68,14-07-2024,11.47,3,18,0,2025-08-28T15:45:55.196829
+Anesthesia Machine,GE MAC 2000,4902.92,28.77,95.54,0.182,1.216,4.92,No,64.2,Hospital B - South Region,6588,0.11,09-03-2025,9.39,16,21,0,2025-08-28T15:45:55.218302
+Anesthesia Machine,Siemens S2000,9684.7,39.0,115.59,0.29,0.312,3.4,No,42.55,Hospital E - North Region,5632,20.82,23-11-2023,12.83,14,19,0,2025-08-28T15:45:55.451701
+CT Scanner,Phillips PageWriter,8122.01,37.9,112.36,0.226,1.436,0.85,Yes,59.99,Hospital A - West Region,5403,22.7,08-08-2024,14.65,14,9,0,2025-08-28T15:45:55.470645
+Infusion Pump,Fresenius 4008,361.18,30.88,91.96,0.202,1.02,1.3,No,34.71,Hospital H - North Region,186,19.85,06-12-2024,23.45,6,11,0,2025-08-28T15:45:55.588475
+Infusion Pump,Zoll R Series,978.27,31.41,99.57,0.954,0.79,4.99,No,45.85,Hospital C - Central Region,212,14.75,10-04-2024,23.82,5,10,0,2025-08-28T15:45:55.763927
+Dialysis Machine,Philips HeartStrart,1753.06,19.08,114.96,0.444,0.184,4.53,Yes,44.73,Hospital E - West Region,2326,22.13,20-06-2025,12.49,1,0,1,2025-08-28T15:45:55.791687
+Infusion Pump,HeartStart FRx,4936.78,26.83,96.05,0.058,1.286,2.19,No,23.89,Hospital E - Central Region,5493,11.87,22-02-2025,4.93,13,20,0,2025-08-28T15:45:55.925807
+ECG Monitor,Siemens Acuson,2054.86,30.34,98.27,0.039,0.333,3.47,Yes,66.59,Hospital C - Central Region,3179,17.36,01-01-2024,35.43,6,18,2,2025-08-28T15:45:56.048868
+Infusion Pump,Philips Ingenuity,7680.35,25.17,106.77,0.576,1.259,4.28,Yes,23.37,Hospital H - North Region,3989,3.85,17-11-2023,27.79,3,5,0,2025-08-28T15:45:56.073412
+ECG Monitor,Smiths Medfusion,8305.33,33.23,105.02,0.404,0.818,1.92,Yes,27.6,Hospital H - South Region,3924,12.88,28-08-2023,34.07,15,18,2,2025-08-28T15:45:56.191327
+ECG Monitor,Datex Ohmeda S5,1097.35,19.83,114.87,0.571,0.842,3.29,No,58.14,Hospital F - East Region,2231,26.3,09-02-2024,34.07,10,19,2,2025-08-28T15:45:56.217879
+Defibrillator,Baxter Flo-Gard,1666.04,18.5,103.67,0.494,0.391,0.34,Yes,31.98,Hospital C - East Region,8313,20.78,03-12-2024,33.51,3,21,0,2025-08-28T15:45:56.344791
+CT Scanner,Baxter Flo-Gard,7591.0,24.19,92.62,0.484,1.4,2.82,No,55.32,Hospital D - North Region,10540,2.19,16-01-2024,6.42,5,6,0,2025-08-28T15:45:56.370974
+Infusion Pump,Siemens Acuson,9296.68,28.02,107.92,0.294,1.469,2.96,Yes,41.71,Hospital D - South Region,10728,24.73,29-10-2024,28.58,2,15,0,2025-08-28T15:45:56.595785
+Anesthesia Machine,NxStage System One,4830.33,38.45,119.99,0.736,0.988,3.11,Yes,42.96,Hospital E - North Region,9609,12.57,09-04-2024,5.56,7,8,0,2025-08-28T15:45:56.707392
+Infusion Pump,Zoll R Series,2276.23,30.1,112.3,0.194,0.252,4.64,Yes,30.86,Hospital A - North Region,6334,14.97,14-07-2025,29.21,6,18,0,2025-08-28T15:45:56.736630
+Ultrasound Machine,Lifepak 20,4947.32,28.15,110.75,0.038,0.939,4.06,No,28.26,Hospital F - Central Region,6533,16.51,18-04-2025,19.21,8,15,0,2025-08-28T15:45:56.862752
+Anesthesia Machine,Drager V500,8664.89,17.46,101.4,0.832,0.15,1.26,No,63.0,Hospital C - Central Region,8316,4.3,29-11-2024,16.7,3,12,0,2025-08-28T15:45:57.094636
+ECG Monitor,Puritan Bennett 980,4534.27,28.39,93.51,0.477,0.838,0.79,No,29.55,Hospital E - Central Region,7377,9.87,24-09-2024,26.63,17,0,1,2025-08-28T15:45:57.222431
+Anesthesia Machine,GE Revolution,7565.69,16.48,107.04,0.21,0.978,2.6,Yes,54.34,Hospital A - East Region,11814,24.78,19-01-2025,16.21,13,0,0,2025-08-28T15:45:57.247411
+Defibrillator,Smiths Medfusion,6195.14,37.8,91.13,0.528,0.822,4.8,Yes,52.53,Hospital F - East Region,8416,14.59,05-04-2025,5.85,11,2,0,2025-08-28T15:45:57.269859
+Anesthesia Machine,Drager V500,9827.29,39.2,91.26,0.552,0.96,4.34,Yes,29.82,Hospital C - East Region,95,24.6,11-10-2023,7.48,4,21,0,2025-08-28T15:45:57.379891
+Patient Ventilator,Philips HeartStrart,5704.56,16.76,96.83,0.869,1.072,3.21,No,55.44,Hospital E - South Region,10886,5.55,19-07-2024,15.34,10,17,0,2025-08-28T15:45:57.613426
+Anesthesia Machine,Puritan Bennett 980,9019.4,33.89,118.51,0.21,0.371,3.72,No,41.74,Hospital C - South Region,5334,17.24,11-07-2025,14.75,14,0,0,2025-08-28T15:45:57.727317
+Infusion Pump,NxStage System One,5673.2,17.32,110.35,0.747,0.711,1.83,No,29.02,Hospital F - East Region,4907,4.78,15-07-2025,15.62,15,8,0,2025-08-28T15:45:57.800840
+CT Scanner,Phillips PageWriter,2631.2,18.99,103.97,0.127,0.686,3.25,Yes,45.67,Hospital D - Central Region,6164,22.73,02-10-2023,26.22,8,10,0,2025-08-28T15:45:57.826998
+CT Scanner,Zoll R Series,7848.19,38.74,102.69,0.311,1.488,3.6,Yes,52.28,Hospital B - East Region,11164,23.99,21-04-2025,10.6,16,5,0,2025-08-28T15:45:57.861340
+Anesthesia Machine,GE Revolution,8974.2,33.1,115.95,0.045,0.98,3.3,No,67.41,Hospital F - South Region,2180,6.98,07-07-2025,17.83,19,1,0,2025-08-28T15:45:57.993317
+Defibrillator,Hamilton G5,6209.39,27.7,119.29,0.546,1.012,4.25,No,22.66,Hospital A - South Region,5445,3.35,07-07-2024,9.54,4,12,2,2025-08-28T15:45:58.119534
+Defibrillator,Lifepak 20,1135.82,26.54,94.28,0.922,0.386,1.44,Yes,32.53,Hospital A - South Region,9633,0.25,02-06-2025,35.76,17,3,2,2025-08-28T15:45:58.241493
+CT Scanner,HeartStart FRx,3997.4,28.64,98.93,0.192,0.686,3.58,No,67.51,Hospital E - Central Region,5370,26.26,26-01-2025,6.04,0,13,0,2025-08-28T15:45:58.264480
+ECG Monitor,Philips Ingenuity,9153.01,24.49,108.89,0.544,0.743,3.97,No,59.87,Hospital A - East Region,5838,10.25,16-05-2024,32.78,19,19,2,2025-08-28T15:45:58.290262
+Infusion Pump,Philips EPIQ,5982.77,30.28,114.05,0.148,0.121,0.92,No,34.52,Hospital A - East Region,5676,25.21,28-02-2025,3.08,12,7,0,2025-08-28T15:45:58.508446
+CT Scanner,Smiths Medfusion,7561.72,27.83,111.22,0.401,0.514,1.23,Yes,21.44,Hospital G - Central Region,2462,19.5,05-02-2025,35.69,0,1,1,2025-08-28T15:45:58.628103
+Ultrasound Machine,Philips EPIQ,9436.98,20.94,93.82,0.986,1.201,1.09,Yes,37.47,Hospital D - North Region,6673,12.2,06-11-2023,35.42,1,4,1,2025-08-28T15:45:58.697249
+Dialysis Machine,Drager Fabius Trio,112.46,33.83,100.72,0.488,1.435,3.09,Yes,54.66,Hospital C - West Region,10297,3.21,01-07-2024,5.45,4,19,0,2025-08-28T15:45:58.845668
+Dialysis Machine,Phillips PageWriter,2228.72,37.63,99.77,0.715,0.811,4.16,No,60.02,Hospital D - West Region,2517,12.49,03-03-2025,30.73,12,6,2,2025-08-28T15:45:58.878968
+Patient Ventilator,Baxter AK 96,3552.29,22.38,93.61,0.525,0.427,1.24,Yes,44.14,Hospital H - East Region,8539,11.62,01-02-2025,20.26,15,1,0,2025-08-28T15:45:59.111775
+CT Scanner,Alaris GH,3306.36,19.8,98.21,0.695,1.254,2.07,Yes,60.98,Hospital G - North Region,4611,18.19,22-11-2023,1.2,14,9,0,2025-08-28T15:45:59.237123
+Dialysis Machine,GE Revolution,9270.74,27.59,114.92,0.038,1.271,2.57,No,44.44,Hospital F - South Region,5591,24.55,25-04-2024,32.07,11,15,0,2025-08-28T15:45:59.260688
+CT Scanner,Baxter Flo-Gard,3362.58,20.3,105.99,0.5,0.994,3.5,Yes,69.97,Hospital G - North Region,4667,14.09,12-03-2025,29.72,9,21,0,2025-08-28T15:45:59.280474
+Ultrasound Machine,Lifepak 20,1495.09,36.59,106.58,0.902,1.182,2.84,No,50.93,Hospital H - North Region,11589,22.28,24-08-2024,28.85,17,16,0,2025-08-28T15:45:59.302909
+Dialysis Machine,Hamilton G5,2527.34,22.79,107.64,0.286,1.458,1.2,Yes,49.59,Hospital C - South Region,9246,2.75,22-04-2024,7.45,4,14,0,2025-08-28T15:45:59.453155
+CT Scanner,GE Aisys,8485.39,33.43,97.03,0.428,0.174,3.86,No,30.89,Hospital G - East Region,6397,13.3,17-06-2024,3.79,8,18,0,2025-08-28T15:45:59.574876
+Dialysis Machine,Hamilton G5,2300.57,29.41,112.11,0.351,1.453,2.5,Yes,21.19,Hospital E - North Region,2259,5.7,02-07-2025,10.39,5,9,0,2025-08-28T15:45:59.742954
+Defibrillator,Baxter Flo-Gard,5093.28,29.58,104.67,0.481,1.372,4.89,No,32.61,Hospital H - North Region,2076,11.62,01-01-2024,14.57,13,16,0,2025-08-28T15:45:59.765863
+Infusion Pump,GE Revolution,1725.31,17.66,95.77,0.946,0.376,3.06,No,50.14,Hospital H - South Region,1454,8.11,30-01-2024,15.51,16,0,1,2025-08-28T15:45:59.892707
+Ultrasound Machine,Philips HeartStrart,6024.47,38.29,110.51,0.004,1.236,2.33,Yes,53.7,Hospital F - North Region,3684,15.56,15-05-2025,23.46,13,2,0,2025-08-28T15:46:00.224797
+Patient Ventilator,NxStage System One,3455.78,27.48,104.59,0.312,0.572,0.21,No,61.27,Hospital G - West Region,5553,1.29,04-03-2024,8.49,16,22,Low,0.634,0,"['High error count (22 logs)', 'Aging device (8.5 years)', 'Frequent repairs (16 repairs)']",XGBoost 2.1.0,2025-08-28T21:33:01.486347,True,2025-08-28T16:03:01.486347
+Infusion Pump,Zoll R Series,1538.22,38.58,95.46,0.705,0.761,4.63,No,49.44,Hospital F - South Region,5089,2.06,11-06-2024,14.3,16,6,High,0.407,2,"['High temperature (38.6°C)', 'Aging device (14.3 years)', 'Frequent repairs (16 repairs)']",XGBoost 2.1.0,2025-08-28T21:33:01.535301,True,2025-08-28T16:03:01.535301
+Dialysis Machine,NxStage System One,5456.98,37.7,165.071,0.71,1.677,2.85,No,54.41,Hospital A - Recovery,947,6.21,15-10-2024,18.19,19,4,Low,0.661,0,"['High temperature (37.7°C)', 'Aging device (18.2 years)', 'Frequent repairs (19 repairs)', 'High pressure (165 kPa)', 'High power consumption (1.7A)']",XGBoost 2.1.0,2025-08-28T21:33:01.574878,True,2025-08-28T16:03:01.574878
+CT Scanner,Siemens S2000,970.41,34.32,105.19,0.468,1.169,0.5,No,69.92,Hospital F - Central Region,1034,15.53,13-10-2023,18.22,15,11,Low,0.625,0,"['Aging device (18.2 years)', 'Frequent repairs (15 repairs)']",XGBoost 2.1.0,2025-08-28T21:33:02.230861,True,2025-08-28T16:03:02.230861
+Infusion Pump,Baxter Flo-Gard,1335.55,19.1,103.97,0.055,0.775,3.59,Yes,23.81,Hospital F - East Region,11569,2.77,06-04-2024,16.57,19,1,Medium,0.502,1,"['Aging device (16.6 years)', 'Frequent repairs (19 repairs)']",XGBoost 2.1.0,2025-08-28T21:33:03.309243,True,2025-08-28T16:03:03.309243
+CT Scanner,GE Revolution,6781.09,28.024,114.11,0.369,1.327,2.155,No,62.27,Hospital B - Nephrology,7570,26.39,25-01-2025,10.43,17,18,Low,0.673,0,"['High error count (18 logs)', 'Aging device (10.4 years)', 'Frequent repairs (17 repairs)', 'High power consumption (1.3A)']",XGBoost 2.1.0,2025-08-28T21:33:04.006977,True,2025-08-28T16:03:04.006977
+ECG Monitor,Lifepak 20,7569.31,32.77,95.65,0.187,1.42,4.94,Yes,20.77,Hospital F - South Region,10705,18.02,09-08-2025,33.64,16,11,High,0.647,2,"['Aging device (33.6 years)', 'Frequent repairs (16 repairs)', 'High power consumption (1.4A)']",XGBoost 2.1.0,2025-08-28T21:33:04.249343,True,2025-08-28T16:03:04.249343
+Patient Ventilator,Zoll R Series,3949.99,20.84,112.55,0.225,1.484,2.5,No,63.83,Hospital B - East Region,2387,4.14,22-05-2024,20.83,12,22,Low,0.778,0,"['High error count (22 logs)', 'Aging device (20.8 years)', 'Frequent repairs (12 repairs)', 'High power consumption (1.5A)']",XGBoost 2.1.0,2025-08-28T21:33:05.335305,True,2025-08-28T16:03:05.335305
+Ultrasound Machine,Smiths Medfusion,1171.72,20.21,115.1,0.573,0.628,4.03,No,22.2,Hospital B - South Region,9449,12.98,21-05-2025,35.3,1,20,Medium,0.556,1,"['High error count (20 logs)', 'Aging device (35.3 years)']",XGBoost 2.1.0,2025-08-28T21:33:06.219442,True,2025-08-28T16:03:06.219442
+Ultrasound Machine,Philips EPIQ,1761.33,18.53,94.35,0.377,1.086,3.64,Yes,62.03,Hospital A - Recovery,3041,2.56,16-03-2025,29.38,17,16,Low,0.619,0,"['High error count (16 logs)', 'Aging device (29.4 years)', 'Frequent repairs (17 repairs)']",XGBoost 2.1.0,2025-08-28T21:33:06.774464,True,2025-08-28T16:03:06.774464
+Patient Ventilator,Siemens S2000,438.97,26.25,109.16,0.661,1.299,3.09,Yes,20.16,Hospital C - Central Region,11677,0.47,23-02-2025,13.68,16,21,Low,0.564,0,"['High error count (21 logs)', 'Aging device (13.7 years)', 'Frequent repairs (16 repairs)', 'High power consumption (1.3A)']",XGBoost 2.1.0,2025-08-28T21:33:07.286169,True,2025-08-28T16:03:07.286169
+Dialysis Machine,Datex Ohmeda S5,6713.97,32.26,97.6,0.566,0.158,2.61,No,33.53,Hospital B - East Region,8227,20.3,30-11-2024,18.03,5,18,Low,0.693,0,"['High error count (18 logs)', 'Aging device (18.0 years)']",XGBoost 2.1.0,2025-08-28T21:33:08.281477,True,2025-08-28T16:03:08.281477
+Ultrasound Machine,Siemens Acuson,8652.12,20.32,113.69,0.798,0.977,4.07,No,67.83,Hospital A - ICU,11522,1.07,09-02-2025,7.41,8,12,Low,0.749,0,"['Extended runtime (8652 hours)', 'Aging device (7.4 years)']",XGBoost 2.1.0,2025-08-28T21:33:09.281941,True,2025-08-28T16:03:09.281941
+Anesthesia Machine,Smiths Medfusion,3851.01,25.02,113.32,0.166,0.361,2.78,No,27.24,Hospital A - Central Region,10906,0.62,20-02-2025,29.71,18,12,Low,0.546,0,"['Aging device (29.7 years)', 'Frequent repairs (18 repairs)']",XGBoost 2.1.0,2025-08-28T21:33:09.319917,True,2025-08-28T16:03:09.319917
+Defibrillator,Drager Fabius Trio,6152.86,21.86,93.36,0.856,0.391,4.51,Yes,43.38,Hospital H - Central Region,9682,7.67,07-09-2023,3.97,12,15,Low,0.756,0,"['Excessive vibration (0.86)', 'Frequent repairs (12 repairs)']",XGBoost 2.1.0,2025-08-28T21:33:10.298134,True,2025-08-28T16:03:10.298134
+Infusion Pump,Baxter Flo-Gard,3504.57,35.67,97.691,0.058,0.703,3.48,No,32.9,Hospital B - ICU,434,5.78,16-04-2025,21.6,4,4,High,0.368,2,"['High temperature (35.7°C)', 'Aging device (21.6 years)']",XGBoost 2.1.0,2025-08-28T21:33:10.348537,True,2025-08-28T16:03:10.348537
+Anesthesia Machine,Smiths Medfusion,4252.0,35.53,97.47,0.96,0.276,3.67,No,57.51,Hospital E - West Region,10926,13.16,14-08-2024,1.6,10,1,Low,0.457,0,"['High temperature (35.5°C)', 'Excessive vibration (0.96)']",XGBoost 2.1.0,2025-08-28T21:33:11.357978,True,2025-08-28T16:03:11.358985
+ECG Monitor,Alaris GH,3845.72,35.39,94.52,0.471,0.868,2.63,No,53.5,Hospital B - South Region,446,18.08,03-05-2024,29.76,12,13,High,0.726,2,"['High temperature (35.4°C)', 'Aging device (29.8 years)', 'Frequent repairs (12 repairs)']",XGBoost 2.1.0,2025-08-28T21:33:12.376837,True,2025-08-28T16:03:12.376837
+Anesthesia Machine,GE Aisys,9919.79,32.0,99.68,0.529,1.065,2.4,No,54.546,Hospital A - ICU,7972,21.4,16-12-2024,17.17,4,18,Low,0.68,0,"['High error count (18 logs)', 'Extended runtime (9920 hours)', 'Aging device (17.2 years)']",XGBoost 2.1.0,2025-08-28T21:33:12.415714,True,2025-08-28T16:03:12.415714
+ECG Monitor,Drager V500,839.62,35.89,112.09,0.907,0.144,0.48,No,61.68,Hospital B - North Region,7068,6.44,15-06-2025,18.66,8,19,High,0.614,2,"['High temperature (35.9°C)', 'Excessive vibration (0.91)', 'High error count (19 logs)', 'Aging device (18.7 years)']",XGBoost 2.1.0,2025-08-28T21:33:13.294623,True,2025-08-28T16:03:13.294623
+CT Scanner,GE Aisys,9703.31,38.13,112.34,0.182,1.378,3.22,Yes,28.63,Hospital E - East Region,3558,20.77,03-05-2025,29.0,15,18,Low,0.742,0,"['High temperature (38.1°C)', 'High error count (18 logs)', 'Extended runtime (9703 hours)', 'Aging device (29.0 years)', 'Frequent repairs (15 repairs)', 'High power consumption (1.4A)']",XGBoost 2.1.0,2025-08-28T21:33:14.250291,True,2025-08-28T16:03:14.250291
+Ultrasound Machine,Datex Ohmeda S5,3545.84,34.1,94.12,0.858,1.167,4.04,No,65.5,Hospital H - North Region,3164,19.17,01-07-2025,26.29,3,0,Medium,0.402,1,"['Excessive vibration (0.86)', 'Aging device (26.3 years)']",XGBoost 2.1.0,2025-08-28T21:34:47.736954,True,2025-08-28T16:04:47.736954
+CT Scanner,NxStage System One,5478.93,32.23,113.48,0.528,0.32,0.7,No,51.8,Hospital B - South Region,9987,5.41,14-11-2024,35.06,2,10,Low,0.592,0,['Aging device (35.1 years)'],XGBoost 2.1.0,2025-08-28T21:34:47.774090,True,2025-08-28T16:04:47.774090
+Anesthesia Machine,Drager Fabius Trio,6242.96,32.0,96.3,0.636,0.501,1.15,Yes,45.722,Hospital A - Recovery,5472,9.64,11-10-2024,32.43,1,0,Medium,0.723,1,['Aging device (32.4 years)'],XGBoost 2.1.0,2025-08-28T21:34:47.809759,True,2025-08-28T16:04:47.809759
+ECG Monitor,NxStage System One,5219.74,20.51,116.91,0.807,0.491,3.81,Yes,37.61,Hospital D - West Region,6012,12.41,27-05-2025,17.21,6,17,High,0.607,2,"['Excessive vibration (0.81)', 'High error count (17 logs)', 'Aging device (17.2 years)']",XGBoost 2.1.0,2025-08-28T21:34:48.377856,True,2025-08-28T16:04:48.377856
+Patient Ventilator,HeartStart FRx,1702.77,22.04,111.63,0.443,0.624,2.27,Yes,52.73,Hospital B - Central Region,5147,11.63,30-12-2024,5.25,6,16,Low,0.571,0,"['High error count (16 logs)', 'Aging device (5.2 years)']",XGBoost 2.1.0,2025-08-28T21:34:49.377629,True,2025-08-28T16:04:49.377629
+Defibrillator,Lifepak 20,6429.93,33.02,100.69,0.166,0.511,2.09,Yes,29.65,Hospital B - ICU,11117,6.396,08-09-2023,20.8,15,13,Low,0.686,0,"['Aging device (20.8 years)', 'Frequent repairs (15 repairs)']",XGBoost 2.1.0,2025-08-28T21:34:49.835623,True,2025-08-28T16:04:49.835623
+Patient Ventilator,Zoll R Series,8707.96,35.66,91.62,0.849,0.293,0.41,No,25.8,Hospital B - North Region,7259,4.28,28-04-2025,31.37,7,17,Low,0.693,0,"['High temperature (35.7°C)', 'Excessive vibration (0.85)', 'High error count (17 logs)', 'Extended runtime (8708 hours)', 'Aging device (31.4 years)']",XGBoost 2.1.0,2025-08-28T21:34:50.407427,True,2025-08-28T16:04:50.407427
+Defibrillator,Datex Ohmeda S5,2950.31,32.74,99.59,0.931,0.6,3.19,No,20.0,Hospital C - South Region,9297,16.89,20-01-2025,7.37,18,0,Medium,0.4,1,"['Excessive vibration (0.93)', 'Aging device (7.4 years)', 'Frequent repairs (18 repairs)']",XGBoost 2.1.0,2025-08-28T21:34:51.370541,True,2025-08-28T16:04:51.370541
+ECG Monitor,GE MAC 2000,9954.77,27.26,100.77,0.018,0.546,3.27,Yes,31.85,Hospital C - Surgery,9113,20.98,08-04-2024,27.23,17,3,High,0.46,2,"['Extended runtime (9955 hours)', 'Aging device (27.2 years)', 'Frequent repairs (17 repairs)']",XGBoost 2.1.0,2025-08-28T21:34:51.737605,True,2025-08-28T16:04:51.737605
+Dialysis Machine,Philips EPIQ,7056.07,34.88,106.71,0.913,1.398,4.8,Yes,21.78,Hospital F - Central Region,10196,24.65,26-12-2023,21.71,4,10,Low,0.669,0,"['Excessive vibration (0.91)', 'Aging device (21.7 years)', 'High power consumption (1.4A)']",XGBoost 2.1.0,2025-08-28T21:34:52.420266,True,2025-08-28T16:04:52.420266
+Anesthesia Machine,Drager V500,1757.74,32.39,98.34,0.401,0.976,1.87,No,48.96,Hospital D - East Region,2178,24.8,29-09-2024,22.04,6,5,High,0.525,2,['Aging device (22.0 years)'],XGBoost 2.1.0,2025-08-28T21:34:53.361172,True,2025-08-28T16:04:53.361172
+Ultrasound Machine,Drager V500,8700.4,34.48,99.54,0.344,1.034,4.12,Yes,29.2,Hospital C - East Region,10632,9.95,01-04-2025,6.54,10,22,Low,0.692,0,"['High error count (22 logs)', 'Extended runtime (8700 hours)', 'Aging device (6.5 years)']",XGBoost 2.1.0,2025-08-28T21:34:54.368788,True,2025-08-28T16:04:54.368788
+Ultrasound Machine,Siemens Acuson,3867.03,29.52,111.68,0.001,1.475,0.01,Yes,53.03,Hospital A - OR,4891,5.57,18-07-2025,31.96,5,20,Low,0.673,0,"['High error count (20 logs)', 'Aging device (32.0 years)', 'High power consumption (1.5A)']",XGBoost 2.1.0,2025-08-28T21:34:54.829235,True,2025-08-28T16:04:54.829235
+CT Scanner,Siemens Acuson,789.23,25.49,114.2,0.251,1.26,3.08,Yes,51.12,Hospital E - South Region,7871,23.17,04-04-2024,29.57,2,3,High,0.511,2,"['Aging device (29.6 years)', 'High power consumption (1.3A)']",XGBoost 2.1.0,2025-08-28T21:34:55.401596,True,2025-08-28T16:04:55.401596
+Anesthesia Machine,Datex Ohmeda S5,4025.55,24.0,102.1,0.833,1.412,0.48,Yes,56.592,Hospital B - Emergency,2742,10.83,07-01-2024,1.89,18,4,Low,0.621,0,"['Excessive vibration (0.83)', 'Frequent repairs (18 repairs)', 'High power consumption (1.4A)']",XGBoost 2.1.0,2025-08-28T21:34:55.880983,True,2025-08-28T16:04:55.880983
+Defibrillator,Zoll R Series,7157.0,38.49,90.09,0.436,0.382,4.71,Yes,33.57,Hospital F - West Region,5611,10.24,20-07-2024,10.82,5,22,Low,0.674,0,"['High temperature (38.5°C)', 'High error count (22 logs)', 'Aging device (10.8 years)']",XGBoost 2.1.0,2025-08-28T21:34:56.341196,True,2025-08-28T16:04:56.341196
+Infusion Pump,GE MAC 2000,6764.34,18.05,94.98,0.615,0.253,3.61,Yes,39.71,Hospital B - Central Region,2207,22.57,12-02-2025,24.27,3,20,Low,0.76,0,"['High error count (20 logs)', 'Aging device (24.3 years)']",XGBoost 2.1.0,2025-08-28T21:34:57.522406,True,2025-08-28T16:04:57.522406
+Patient Ventilator,Smiths Medfusion,7773.28,32.12,118.66,0.322,0.794,0.31,Yes,47.64,Hospital A - East Region,2646,13.31,18-09-2023,3.3,12,14,Low,0.603,0,['Frequent repairs (12 repairs)'],XGBoost 2.1.0,2025-08-28T21:34:58.413369,True,2025-08-28T16:04:58.413369
+Defibrillator,Zoll R Series,404.43,16.89,93.26,0.345,1.325,2.59,Yes,41.36,Hospital C - ICU,7267,7.942,16-03-2025,2.38,0,22,Low,0.45,0,"['High error count (22 logs)', 'High power consumption (1.3A)']",XGBoost 2.1.0,2025-08-28T21:34:58.552149,True,2025-08-28T16:04:58.552149
+Patient Ventilator,Philips Ingenuity,2711.03,17.27,95.71,0.688,1.371,4.59,No,28.71,Hospital G - South Region,1897,23.09,04-05-2025,5.6,8,11,Low,0.723,0,"['Aging device (5.6 years)', 'High power consumption (1.4A)']",XGBoost 2.1.0,2025-08-28T21:34:59.364238,True,2025-08-28T16:04:59.364238
+Infusion Pump,Baxter Flo-Gard,2579.19,17.69,116.568,0.055,1.027,0.41,Yes,69.03,Hospital B - Radiology,7825,21.38,26-10-2024,32.53,8,16,Low,0.458,0,"['High error count (16 logs)', 'Aging device (32.5 years)']",XGBoost 2.1.0,2025-08-28T21:34:59.613119,True,2025-08-28T16:04:59.613119
+ECG Monitor,Philips Ingenuity,5564.51,31.74,116.84,0.928,0.773,0.22,Yes,34.03,Hospital G - East Region,8164,13.1,19-07-2025,34.36,16,7,High,0.62,2,"['Excessive vibration (0.93)', 'Aging device (34.4 years)', 'Frequent repairs (16 repairs)']",XGBoost 2.1.0,2025-08-28T21:35:00.528561,True,2025-08-28T16:05:00.528561
+Defibrillator,HeartStart FRx,5969.05,22.28,97.16,0.099,0.361,2.68,No,61.95,Hospital A - OR,1809,3.763,15-12-2023,0.6,2,8,Low,0.759,0,['All parameters within normal ranges'],XGBoost 2.1.0,2025-08-28T21:35:01.216329,True,2025-08-28T16:05:01.216329
+Patient Ventilator,Baxter Flo-Gard,4919.89,36.24,102.64,0.647,0.754,1.69,Yes,21.67,Hospital A - South Region,3662,24.09,24-07-2025,10.56,6,14,Low,0.686,0,"['High temperature (36.2°C)', 'Aging device (10.6 years)']",XGBoost 2.1.0,2025-08-28T21:35:01.361332,True,2025-08-28T16:05:01.361332
+Infusion Pump,Baxter Flo-Gard,3510.77,35.36,92.49,0.119,0.155,4.43,No,20.36,Hospital A - South Region,3437,1.56,24-02-2025,18.83,12,11,Low,0.583,0,"['High temperature (35.4°C)', 'Aging device (18.8 years)', 'Frequent repairs (12 repairs)']",XGBoost 2.1.0,2025-08-28T21:35:02.467340,True,2025-08-28T16:05:02.467340
+Anesthesia Machine,GE Aisys,9189.14,18.32,113.44,0.57,0.691,4.91,No,55.216,Hospital A - Cardiology,11639,7.11,02-11-2023,22.12,3,21,Low,0.734,0,"['High error count (21 logs)', 'Extended runtime (9189 hours)', 'Aging device (22.1 years)']",XGBoost 2.1.0,2025-08-28T21:35:03.346428,True,2025-08-28T16:05:03.346428
+ECG Monitor,Siemens Acuson,9005.9,27.28,111.7,0.34,0.801,0.81,Yes,21.7,Hospital F - North Region,8309,19.98,24-05-2025,22.59,7,16,High,0.665,2,"['High error count (16 logs)', 'Extended runtime (9006 hours)', 'Aging device (22.6 years)']",XGBoost 2.1.0,2025-08-28T21:35:03.381501,True,2025-08-28T16:05:03.381501
+Patient Ventilator,Siemens Acuson,956.71,37.96,118.1,0.66,0.985,0.23,No,53.71,Hospital E - South Region,3045,5.02,28-10-2024,7.51,0,15,Low,0.514,0,"['High temperature (38.0°C)', 'Aging device (7.5 years)']",XGBoost 2.1.0,2025-08-28T21:35:04.390999,True,2025-08-28T16:05:04.390999
+Ultrasound Machine,Siemens S2000,1169.53,34.14,105.35,0.027,0.969,4.49,No,22.11,Hospital C - Surgery,10107,3.75,29-07-2025,8.99,14,6,High,0.401,2,"['Aging device (9.0 years)', 'Frequent repairs (14 repairs)']",XGBoost 2.1.0,2025-08-28T21:35:05.291356,True,2025-08-28T16:05:05.291356
+Dialysis Machine,Lifepak 20,4346.34,17.7,115.03,0.811,0.471,2.0,Yes,34.73,Hospital H - West Region,10587,22.15,30-05-2024,26.62,6,21,Low,0.741,0,"['Excessive vibration (0.81)', 'High error count (21 logs)', 'Aging device (26.6 years)']",XGBoost 2.1.0,2025-08-28T21:35:05.440144,True,2025-08-28T16:05:05.440144
+ECG Monitor,Siemens Acuson,2972.92,16.84,118.72,0.735,0.672,0.32,No,28.62,Hospital B - West Region,9149,4.11,16-11-2023,25.58,2,6,High,0.59,2,['Aging device (25.6 years)'],XGBoost 2.1.0,2025-08-28T21:35:06.414416,True,2025-08-28T16:05:06.414416
+Anesthesia Machine,GE MAC 2000,8922.9,26.25,109.89,0.408,0.285,1.63,No,60.94,Hospital G - East Region,2594,5.53,21-02-2024,3.8,6,1,Low,0.474,0,['Extended runtime (8923 hours)'],XGBoost 2.1.0,2025-08-28T21:35:07.411286,True,2025-08-28T16:05:07.413301
+Patient Ventilator,Hamilton G5,1677.68,35.0,140.878,0.075,1.308,3.3,Yes,64.58,Hospital A - ICU,1751,20.3,05-07-2025,32.7,17,8,High,0.502,2,"['Aging device (32.7 years)', 'Frequent repairs (17 repairs)', 'High power consumption (1.3A)']",XGBoost 2.1.0,2025-08-28T21:35:07.656371,True,2025-08-28T16:05:07.656371
+Infusion Pump,Philips EPIQ,5853.86,16.47,106.56,0.979,1.022,0.66,Yes,42.04,Hospital E - East Region,7229,12.01,25-06-2024,4.83,2,10,Low,0.549,0,['Excessive vibration (0.98)'],XGBoost 2.1.0,2025-08-28T21:35:08.420144,True,2025-08-28T16:05:08.422159
+Patient Ventilator,Philips EPIQ,8145.94,20.74,117.25,0.927,0.427,4.22,Yes,50.81,Hospital H - East Region,3669,11.93,26-05-2025,2.69,15,15,0,2025-08-28T17:02:49.948676
+Defibrillator,Baxter Flo-Gard,9899.23,32.35,93.35,0.126,0.454,3.44,Yes,68.29,Hospital H - Central Region,9863,20.22,25-07-2025,26.91,19,10,0,2025-08-28T17:02:50.069246
+CT Scanner,Fresenius 4008,4312.73,17.84,97.14,0.857,1.039,2.5,No,20.53,Hospital B - Central Region,5211,0.32,23-03-2025,0.63,5,21,0,2025-08-28T17:02:50.086384
+ECG Monitor,Philips Ingenuity,3181.74,31.16,109.38,0.093,0.276,3.87,No,66.1,Hospital H - East Region,1468,25.06,27-12-2023,25.8,17,4,2,2025-08-28T17:02:50.116698
+Infusion Pump,GE Aisys,7694.58,18.89,92.96,0.101,1.048,0.52,Yes,59.01,Hospital G - West Region,1550,13.79,11-11-2023,34.89,2,1,1,2025-08-28T17:02:50.135525
+Dialysis Machine,Philips HeartStrart,7056.74,17.48,109.1,0.635,1.342,4.18,Yes,62.32,Hospital A - Central Region,3682,4.36,01-04-2024,8.49,18,10,0,2025-08-28T17:02:50.168286
+CT Scanner,Philips HeartStrart,4553.04,17.09,100.82,0.171,1.129,0.45,No,32.12,Hospital C - East Region,1872,4.19,22-08-2024,20.67,15,10,0,2025-08-28T17:02:50.199644
+CT Scanner,Fresenius 4008,1473.3,31.48,104.23,0.129,1.257,3.2,Yes,63.0,Hospital G - South Region,3231,16.15,09-07-2025,3.6,8,14,0,2025-08-28T17:02:50.319675
+Patient Ventilator,NxStage System One,4976.44,33.58,117.84,0.534,0.12,3.1,No,38.51,Hospital C - North Region,786,3.82,21-10-2024,9.4,3,13,0,2025-08-28T17:02:50.442385
+ECG Monitor,Baxter Flo-Gard,5699.75,29.13,115.08,0.567,0.519,0.31,Yes,42.49,Hospital D - East Region,10890,22.59,23-11-2023,34.81,1,18,2,2025-08-28T17:02:50.464511
+Infusion Pump,Baxter AK 96,764.6,24.94,92.93,0.379,1.315,0.93,No,31.53,Hospital D - South Region,7349,8.55,24-07-2024,1.64,4,2,1,2025-08-28T17:02:50.642535
+Anesthesia Machine,NxStage System One,5184.43,20.69,119.31,0.924,0.751,0.34,Yes,49.69,Hospital H - East Region,2168,15.51,09-03-2025,6.63,14,4,0,2025-08-28T17:02:50.774374
+Infusion Pump,Baxter Flo-Gard,7639.63,27.04,94.79,0.618,0.546,3.8,Yes,63.81,Hospital F - East Region,9863,18.16,19-04-2025,19.6,13,16,0,2025-08-28T17:02:50.810166
+CT Scanner,Phillips PageWriter,9953.11,30.38,101.85,0.081,1.267,4.86,No,35.21,Hospital F - Central Region,8241,13.61,23-06-2025,12.37,19,19,0,2025-08-28T17:02:50.841567
+Dialysis Machine,Zoll R Series,717.51,28.56,111.09,0.94,0.779,2.39,Yes,51.7,Hospital C - North Region,11743,22.38,01-10-2024,27.92,16,4,2,2025-08-28T17:02:50.863751
+Anesthesia Machine,Fresenius 4008,9525.38,31.31,91.81,0.644,1.47,2.89,No,63.29,Hospital H - West Region,4726,4.67,07-09-2023,32.34,18,21,0,2025-08-28T17:02:50.996826
+CT Scanner,Baxter Flo-Gard,6374.87,31.76,96.11,0.057,0.387,4.07,Yes,27.9,Hospital G - Central Region,11546,20.58,13-02-2024,32.02,15,15,0,2025-08-28T17:02:51.134851
+CT Scanner,Siemens S2000,6014.03,26.53,113.82,0.589,1.027,0.92,Yes,37.84,Hospital D - North Region,6881,4.18,09-12-2024,12.12,4,14,0,2025-08-28T17:02:51.159626
+Ultrasound Machine,Puritan Bennett 980,161.35,33.02,107.74,0.101,0.18,3.96,Yes,36.26,Hospital E - East Region,3203,15.15,29-04-2024,28.6,14,7,2,2025-08-28T17:02:51.282994
+Defibrillator,NxStage System One,7325.92,20.35,95.41,0.843,1.335,4.35,No,64.25,Hospital D - Central Region,749,24.55,03-05-2024,15.56,3,11,0,2025-08-28T17:02:51.517162
+Defibrillator,Philips Ingenuity,291.18,39.6,114.07,0.117,0.608,0.39,Yes,38.1,Hospital H - East Region,8096,5.44,29-05-2024,5.23,0,6,2,2025-08-28T17:02:51.609770
+Patient Ventilator,Phillips PageWriter,2009.44,33.78,114.42,0.194,1.292,2.6,Yes,46.57,Hospital F - East Region,7412,6.65,24-06-2024,17.0,18,7,2,2025-08-28T17:02:51.738535
+CT Scanner,HeartStart FRx,2885.54,28.98,115.31,0.929,0.867,1.86,No,54.41,Hospital C - South Region,8290,0.88,22-11-2023,33.8,18,9,0,2025-08-28T17:02:51.769624
+Ultrasound Machine,Siemens S2000,6202.91,18.37,111.54,0.168,0.291,1.16,No,49.49,Hospital D - East Region,907,20.77,02-11-2024,12.34,3,5,0,2025-08-28T17:02:51.811063
+Anesthesia Machine,Siemens Acuson,4485.49,37.99,119.16,0.303,0.221,1.73,Yes,51.82,Hospital A - Central Region,807,12.05,04-12-2023,7.14,14,10,0,2025-08-28T17:02:51.929720
+Defibrillator,GE MAC 2000,4679.5,16.76,96.84,0.641,1.109,1.87,No,62.5,Hospital E - Central Region,6805,6.31,06-03-2025,12.12,3,16,0,2025-08-28T17:02:52.057034
+Ultrasound Machine,Baxter Flo-Gard,1088.14,18.31,91.05,0.488,0.302,3.75,Yes,58.8,Hospital C - North Region,537,0.5,05-06-2025,2.01,15,1,1,2025-08-28T17:02:52.174734
+Patient Ventilator,GE Aisys,3034.19,35.36,119.55,0.568,0.235,3.87,No,56.83,Hospital D - South Region,7630,6.36,21-12-2024,29.69,12,15,0,2025-08-28T17:02:52.196452
+Infusion Pump,Zoll R Series,7891.93,31.88,112.44,0.295,0.653,1.79,No,66.72,Hospital B - North Region,1394,2.97,17-01-2025,26.46,14,22,0,2025-08-28T17:02:52.322392
+Defibrillator,GE Revolution,1757.43,18.79,104.02,0.961,0.968,0.14,Yes,20.24,Hospital B - West Region,5637,18.97,26-03-2024,0.18,4,20,0,2025-08-28T17:02:52.544384
+ECG Monitor,Lifepak 20,2929.66,25.58,102.95,0.958,1.044,4.91,Yes,31.69,Hospital G - Central Region,2485,1.82,02-05-2024,16.84,9,5,2,2025-08-28T17:02:52.625907
+ECG Monitor,Philips EPIQ,4071.91,16.18,112.28,0.74,0.193,2.25,No,65.27,Hospital H - East Region,10234,7.57,22-09-2023,25.76,2,0,1,2025-08-28T17:02:52.648636
+Dialysis Machine,Baxter Flo-Gard,6182.39,27.83,115.35,0.556,1.26,1.14,Yes,29.76,Hospital D - Central Region,9563,9.96,12-11-2024,18.3,12,7,0,2025-08-28T17:02:52.777758
+Defibrillator,Lifepak 20,3506.49,16.49,113.99,0.038,0.141,3.61,No,69.15,Hospital A - North Region,8243,11.29,05-06-2024,3.29,11,0,1,2025-08-28T17:02:52.801917
+Infusion Pump,Philips Ingenuity,4632.67,18.93,101.2,0.076,1.26,4.67,No,51.94,Hospital E - West Region,6710,2.68,04-10-2023,20.43,13,6,0,2025-08-28T17:02:52.915151
+Defibrillator,GE Revolution,4465.9,18.99,116.97,0.802,0.668,2.08,No,39.34,Hospital A - West Region,4910,6.29,07-02-2024,28.19,8,4,0,2025-08-28T17:02:53.039057
+Anesthesia Machine,Baxter Flo-Gard,9234.24,34.25,107.66,0.684,1.188,2.59,Yes,33.62,Hospital C - East Region,5524,19.7,26-06-2024,21.46,3,16,0,2025-08-28T17:02:53.063046
+Infusion Pump,GE Revolution,992.5,32.28,106.9,0.938,0.725,2.4,Yes,69.37,Hospital G - East Region,4827,22.98,05-07-2025,8.42,1,3,1,2025-08-28T17:02:53.201768
+Anesthesia Machine,Smiths Medfusion,1040.3,28.24,107.88,0.486,0.356,1.38,Yes,32.59,Hospital H - South Region,8197,7.1,26-01-2025,14.78,12,22,1,2025-08-28T17:02:53.429386
+Ultrasound Machine,NxStage System One,2933.55,28.06,118.87,0.969,0.278,0.71,No,33.14,Hospital E - North Region,2098,21.84,13-04-2024,21.72,4,4,2,2025-08-28T17:02:53.554918
+Defibrillator,Alaris GH,7423.03,34.7,93.38,0.618,0.21,1.84,No,52.01,Hospital E - Central Region,8453,4.32,11-05-2025,6.04,2,10,0,2025-08-28T17:02:53.647340
+Defibrillator,Philips HeartStrart,5956.78,31.21,115.84,0.55,1.467,2.43,No,54.8,Hospital B - Central Region,7482,16.6,14-07-2025,18.6,6,17,0,2025-08-28T17:02:53.695971
+Defibrillator,Philips EPIQ,3109.81,16.38,116.76,0.078,0.286,1.49,Yes,33.14,Hospital B - East Region,5476,13.53,10-03-2025,9.99,7,15,0,2025-08-28T17:02:53.765991
+Defibrillator,Hamilton G5,708.75,27.37,112.82,0.428,0.904,0.31,Yes,28.49,Hospital B - North Region,9957,9.73,17-09-2024,3.35,17,12,0,2025-08-28T17:02:53.801786
+Defibrillator,Siemens Acuson,8189.79,19.32,90.41,0.109,0.818,4.73,No,47.72,Hospital D - West Region,6287,6.0,27-10-2023,34.77,6,9,0,2025-08-28T17:02:53.844179
+ECG Monitor,Philips HeartStrart,5385.57,31.01,95.55,0.255,1.204,0.81,Yes,66.63,Hospital C - West Region,5249,10.51,04-07-2024,19.78,4,11,2,2025-08-28T17:02:53.969175
+ECG Monitor,Fresenius 4008,4696.83,27.91,103.28,0.391,0.551,2.46,Yes,37.37,Hospital E - Central Region,5092,2.29,02-02-2024,25.45,18,3,2,2025-08-28T17:02:54.093206
+Defibrillator,GE Aisys,2863.36,39.92,91.41,0.483,0.307,0.61,Yes,28.49,Hospital E - East Region,4228,13.26,01-06-2025,18.86,14,14,0,2025-08-28T17:02:54.329794
+CT Scanner,Siemens S2000,1708.74,37.84,98.25,0.902,1.491,4.18,Yes,43.82,Hospital A - East Region,1862,19.32,22-05-2025,5.49,18,11,0,2025-08-28T17:02:54.448856
+Anesthesia Machine,Fresenius 4008,2472.87,22.25,94.29,0.879,1.159,3.86,Yes,68.65,Hospital G - West Region,2162,8.4,02-10-2024,21.39,1,7,2,2025-08-28T17:02:54.470577
+ECG Monitor,Philips Ingenuity,2001.33,17.1,104.44,0.524,0.57,0.78,No,43.79,Hospital C - Central Region,4720,6.52,15-09-2023,34.98,15,6,2,2025-08-28T17:02:54.559134
+Anesthesia Machine,Fresenius 4008,9552.13,35.03,110.3,0.109,0.213,2.33,Yes,66.57,Hospital F - West Region,11202,11.19,03-12-2023,17.72,13,15,0,2025-08-28T17:02:54.692031
+Infusion Pump,GE MAC 2000,1133.16,17.65,112.28,0.231,0.544,2.27,Yes,48.56,Hospital D - West Region,4861,21.27,28-06-2025,27.19,5,13,0,2025-08-28T17:02:54.719963
+Defibrillator,Philips Ingenuity,6307.13,29.39,95.08,0.992,1.091,2.04,No,48.88,Hospital F - East Region,3613,12.25,06-03-2025,15.55,4,11,0,2025-08-28T17:02:54.779830
+Anesthesia Machine,Baxter Flo-Gard,359.72,31.85,106.97,0.18,0.39,0.47,Yes,65.85,Hospital H - West Region,1595,20.57,18-11-2024,22.06,16,20,0,2025-08-28T17:02:54.922403
+Patient Ventilator,Zoll R Series,9655.8,22.71,100.77,0.878,0.345,3.29,No,36.32,Hospital F - East Region,100,17.46,31-08-2024,11.51,0,15,0,2025-08-28T17:02:55.051405
+Dialysis Machine,Drager V500,9568.53,33.85,117.04,0.513,0.491,0.02,No,55.29,Hospital C - South Region,6266,12.09,15-03-2024,30.91,14,6,0,2025-08-28T17:02:55.174394
+Infusion Pump,Hamilton G5,3809.96,18.07,94.73,0.416,0.942,2.57,Yes,61.71,Hospital H - East Region,11487,24.98,05-06-2025,4.3,11,17,2,2025-08-28T17:02:55.191551
+Infusion Pump,GE Logiq E9,2791.44,24.54,112.26,0.867,1.233,3.97,No,35.96,Hospital A - West Region,3547,16.43,16-12-2024,14.05,6,18,0,2025-08-28T17:02:55.313475
+Dialysis Machine,GE MAC 2000,2322.16,36.88,118.09,0.406,0.63,4.52,Yes,53.96,Hospital B - North Region,10946,17.63,08-08-2024,34.13,7,13,0,2025-08-28T17:02:55.435331
+Defibrillator,Drager Fabius Trio,9652.27,32.93,98.85,0.568,0.111,1.84,No,50.21,Hospital H - North Region,6565,18.33,30-03-2024,19.73,4,15,0,2025-08-28T17:02:55.612435
+Dialysis Machine,Philips Ingenuity,2768.35,18.09,116.39,0.228,0.158,1.5,No,25.09,Hospital C - Central Region,1520,18.81,18-10-2024,14.68,18,1,2,2025-08-28T17:02:55.743591
+Anesthesia Machine,GE Revolution,3912.43,18.72,114.96,0.836,1.296,2.91,Yes,37.45,Hospital F - Central Region,3718,12.56,21-02-2025,28.81,12,6,0,2025-08-28T17:02:55.771572
+Dialysis Machine,NxStage System One,2062.32,27.39,93.96,0.758,1.042,3.89,No,30.31,Hospital F - Central Region,9024,14.65,26-07-2025,26.86,10,1,2,2025-08-28T17:02:55.793930
+CT Scanner,Alaris GH,5246.52,24.88,114.96,0.236,0.829,0.93,Yes,28.5,Hospital A - Central Region,8621,22.8,28-03-2024,33.22,2,15,0,2025-08-28T17:02:55.909273
+Defibrillator,Philips EPIQ,8440.78,17.04,116.73,0.744,0.863,3.26,Yes,56.42,Hospital G - Central Region,9065,8.73,24-11-2023,2.0,16,6,0,2025-08-28T17:02:56.039140
+Infusion Pump,Hamilton G5,4185.34,39.39,103.43,0.406,0.175,1.58,Yes,45.51,Hospital D - East Region,9805,3.99,25-11-2023,5.09,2,9,2,2025-08-28T17:02:56.059621
+Dialysis Machine,Puritan Bennett 980,9637.72,26.91,99.39,0.84,1.418,4.28,Yes,57.77,Hospital H - North Region,6487,5.7,28-03-2025,24.29,6,20,0,2025-08-28T17:02:56.190320
+Patient Ventilator,Smiths Medfusion,8668.53,24.43,91.44,0.492,0.995,3.5,Yes,44.39,Hospital H - Central Region,8225,7.66,10-12-2024,35.52,7,17,0,2025-08-28T17:02:56.313443
+Dialysis Machine,GE Revolution,4209.43,30.42,119.5,0.442,0.858,2.17,No,36.28,Hospital C - West Region,1825,24.13,12-02-2024,28.24,15,21,0,2025-08-28T17:02:56.555668
+Defibrillator,Datex Ohmeda S5,9447.18,16.13,102.93,0.929,0.964,1.21,No,52.07,Hospital G - West Region,6276,20.93,11-03-2025,9.08,15,15,0,2025-08-28T17:02:56.640132
+ECG Monitor,Baxter Flo-Gard,6214.27,38.28,112.42,0.303,1.263,3.44,Yes,57.97,Hospital D - East Region,1574,5.37,29-08-2023,18.96,16,18,2,2025-08-28T17:02:56.663884
+CT Scanner,Siemens Acuson,8189.23,19.29,113.65,0.703,0.211,2.83,Yes,35.31,Hospital D - South Region,1381,12.43,21-01-2025,35.33,0,19,0,2025-08-28T17:02:56.806937
+Ultrasound Machine,Baxter Flo-Gard,4224.62,25.64,112.6,0.088,1.391,1.62,No,50.22,Hospital E - East Region,802,17.04,11-01-2025,8.43,16,18,0,2025-08-28T17:02:56.826795
+CT Scanner,GE Aisys,7634.48,26.12,105.57,0.064,0.886,2.17,Yes,63.41,Hospital H - Central Region,8994,11.31,26-08-2024,8.76,9,20,0,2025-08-28T17:02:56.943995
+Infusion Pump,NxStage System One,1759.29,18.9,118.36,0.797,1.46,4.16,Yes,29.03,Hospital E - West Region,7454,1.76,06-01-2024,27.51,17,16,0,2025-08-28T17:02:56.964597
+Patient Ventilator,Datex Ohmeda S5,2224.71,17.95,106.01,0.904,0.472,4.53,Yes,63.61,Hospital H - Central Region,5499,16.55,28-03-2024,18.78,11,20,0,2025-08-28T17:02:57.083855
+Dialysis Machine,Baxter Flo-Gard,2143.72,34.17,112.24,0.365,0.98,0.15,No,69.43,Hospital C - North Region,7401,11.53,01-11-2024,9.27,3,13,0,2025-08-28T17:02:57.207864
+Patient Ventilator,Zoll R Series,3153.35,35.85,113.09,0.297,1.008,0.94,No,29.45,Hospital D - West Region,5453,0.1,02-07-2024,8.67,11,9,0,2025-08-28T17:02:57.437289
+Dialysis Machine,Siemens Acuson,3415.98,16.34,101.13,0.932,1.132,3.62,No,50.35,Hospital C - West Region,995,23.15,09-10-2023,34.26,12,5,0,2025-08-28T17:02:57.455994
+CT Scanner,Drager Fabius Trio,8082.97,28.55,102.85,0.696,1.241,1.62,Yes,48.81,Hospital F - Central Region,8067,26.32,04-07-2024,0.73,12,14,0,2025-08-28T17:02:57.541538
+Ultrasound Machine,Philips EPIQ,2270.43,28.06,104.97,0.956,1.449,3.1,Yes,43.77,Hospital F - South Region,6259,1.27,24-10-2024,28.73,2,15,0,2025-08-28T17:02:57.677452
+Infusion Pump,Philips EPIQ,347.87,37.53,105.31,0.878,1.409,3.14,Yes,59.45,Hospital A - South Region,9772,0.37,15-02-2025,34.38,15,19,0,2025-08-28T17:02:57.704353
+ECG Monitor,NxStage System One,229.13,18.83,96.42,0.253,0.856,1.59,Yes,62.06,Hospital F - West Region,9491,10.86,24-10-2024,3.93,7,21,2,2025-08-28T17:02:57.734765
+Infusion Pump,NxStage System One,8016.04,38.07,115.46,0.125,0.651,4.17,Yes,33.9,Hospital H - Central Region,3664,18.49,30-09-2024,1.96,4,17,0,2025-08-28T17:02:57.865979
+Anesthesia Machine,Philips HeartStrart,6466.69,22.56,109.2,0.62,1.41,1.28,Yes,48.73,Hospital A - East Region,2868,24.88,09-06-2024,27.56,12,7,0,2025-08-28T17:02:58.006127
+Patient Ventilator,Alaris GH,5907.61,36.21,107.17,0.262,0.731,2.29,Yes,23.34,Hospital C - West Region,1633,18.97,17-01-2025,11.13,15,7,0,2025-08-28T17:02:58.141115
+ECG Monitor,Baxter Flo-Gard,499.64,37.86,110.48,0.896,0.619,4.81,Yes,27.62,Hospital D - North Region,5318,18.18,19-02-2024,7.93,4,22,2,2025-08-28T17:02:58.174348
+Dialysis Machine,Baxter Flo-Gard,974.09,27.58,104.39,0.602,0.468,2.81,Yes,56.77,Hospital E - East Region,865,18.63,08-03-2025,28.71,9,4,2,2025-08-28T17:02:58.301980
+Infusion Pump,Drager Fabius Trio,9582.59,24.35,109.34,0.139,0.832,0.19,Yes,46.08,Hospital G - North Region,7958,21.27,19-02-2025,27.96,3,13,0,2025-08-28T17:02:58.466342
+Defibrillator,Alaris GH,5701.46,30.97,90.79,0.215,1.157,3.79,No,66.24,Hospital A - West Region,11026,21.72,20-07-2024,13.54,3,12,0,2025-08-28T17:02:58.555945
+Ultrasound Machine,Lifepak 20,5386.2,22.25,108.55,0.931,1.344,2.01,No,57.86,Hospital F - Central Region,9131,6.76,22-08-2025,4.87,1,12,0,2025-08-28T17:02:58.683762
+Dialysis Machine,HeartStart FRx,8137.3,26.58,118.93,0.921,0.37,3.1,Yes,25.67,Hospital B - Central Region,937,4.85,13-08-2024,23.95,16,18,0,2025-08-28T17:02:58.715642
+Patient Ventilator,Lifepak 20,5563.75,31.65,99.52,0.564,0.691,1.69,Yes,26.28,Hospital D - North Region,9883,0.29,13-07-2024,27.51,10,5,0,2025-08-28T17:02:58.761974
+ECG Monitor,Siemens S2000,5859.23,24.4,110.71,0.664,1.431,4.1,Yes,44.79,Hospital F - East Region,3277,0.73,06-10-2024,32.79,12,9,2,2025-08-28T17:02:58.890789
+CT Scanner,GE MAC 2000,7431.38,26.58,118.12,0.126,0.326,0.96,No,37.89,Hospital D - East Region,6777,20.14,11-07-2024,33.22,1,16,0,2025-08-28T17:02:59.019651
+Dialysis Machine,Drager V500,4676.36,23.91,93.97,0.33,1.475,2.01,Yes,49.62,Hospital A - South Region,3892,2.98,03-02-2025,23.93,19,12,0,2025-08-28T17:02:59.049988
+CT Scanner,Baxter Flo-Gard,5338.58,34.74,93.37,0.269,1.006,2.58,No,58.16,Hospital H - South Region,4053,24.86,04-01-2024,29.29,2,0,1,2025-08-28T17:02:59.169255
+ECG Monitor,Philips EPIQ,7451.58,36.27,101.93,0.193,0.143,2.39,No,62.57,Hospital C - North Region,5251,1.74,16-01-2025,30.51,17,21,2,2025-08-28T17:02:59.298183
+Infusion Pump,Philips HeartStrart,8971.19,28.8,102.54,0.828,0.165,4.46,No,20.64,Hospital E - South Region,6047,0.06,11-06-2024,0.89,19,19,0,2025-08-28T17:02:59.431573
+Dialysis Machine,Baxter Flo-Gard,7071.91,16.86,110.63,0.443,0.307,0.27,No,46.44,Hospital C - North Region,7888,23.06,22-10-2024,15.06,0,2,1,2025-08-28T17:02:59.518130
+Dialysis Machine,HeartStart FRx,9078.58,26.1,116.96,0.76,1.303,4.52,Yes,60.56,Hospital B - North Region,3823,17.59,30-09-2024,9.02,19,16,0,2025-08-28T17:02:59.652841
+CT Scanner,GE Aisys,621.82,17.43,96.51,0.382,0.247,1.38,No,36.21,Hospital C - West Region,5270,10.37,19-04-2024,5.2,14,8,0,2025-08-28T17:02:59.794188
+Infusion Pump,Drager V500,478.9,22.45,99.6,0.616,1.339,2.57,No,42.0,Hospital E - South Region,10771,2.17,29-06-2025,33.11,0,4,2,2025-08-28T17:02:59.814344
+Anesthesia Machine,Smiths Medfusion,7653.56,38.5,99.18,0.007,1.38,2.89,Yes,66.63,Hospital G - East Region,5115,13.9,10-01-2024,8.79,19,6,0,2025-08-28T17:02:59.940058
+Patient Ventilator,GE Logiq E9,6900.57,28.06,112.25,0.569,0.564,3.02,No,67.65,Hospital G - East Region,8076,25.62,13-04-2025,27.85,5,7,0,2025-08-28T17:02:59.961983
+Anesthesia Machine,Datex Ohmeda S5,4482.2,24.06,115.74,0.614,0.742,2.52,Yes,69.33,Hospital A - South Region,9599,19.67,26-09-2024,33.57,14,15,0,2025-08-28T17:03:00.093625
+ECG Monitor,GE Aisys,5994.83,36.95,114.6,0.754,1.019,1.38,Yes,39.46,Hospital B - East Region,8563,7.14,14-02-2024,13.1,3,18,2,2025-08-28T17:03:00.226896
+Anesthesia Machine,Baxter AK 96,9631.84,39.55,101.6,0.056,0.532,4.44,Yes,65.94,Hospital E - West Region,547,25.87,11-04-2025,30.51,14,4,0,2025-08-28T17:03:00.459664
+Infusion Pump,GE Revolution,820.38,25.07,115.22,0.913,0.289,1.58,No,62.81,Hospital B - North Region,4515,20.97,08-07-2024,18.65,10,6,2,2025-08-28T17:03:00.477325
+CT Scanner,Baxter Flo-Gard,9933.79,21.34,114.05,0.622,1.401,0.02,Yes,68.53,Hospital D - East Region,92,3.2,06-02-2024,0.83,18,11,0,2025-08-28T17:03:00.552531
+Defibrillator,GE Logiq E9,5146.95,33.79,118.47,0.348,1.341,0.6,No,29.23,Hospital D - East Region,5492,25.71,28-01-2024,13.48,18,3,2,2025-08-28T17:03:00.688374
+ECG Monitor,Drager Fabius Trio,5152.09,28.19,90.13,0.002,1.219,0.39,Yes,67.39,Hospital E - West Region,2500,1.43,03-08-2024,35.61,17,14,2,2025-08-28T17:03:00.821489
+Dialysis Machine,Datex Ohmeda S5,1833.16,18.7,113.28,0.901,0.791,0.58,Yes,41.4,Hospital C - North Region,8446,0.74,30-12-2023,7.9,19,22,0,2025-08-28T17:03:01.809109
+Ultrasound Machine,Baxter Flo-Gard,453.27,21.36,97.73,0.836,1.079,4.93,Yes,35.31,Hospital C - West Region,4272,2.25,15-09-2024,3.39,18,11,0,2025-08-28T17:03:02.793909
+Ultrasound Machine,Baxter AK 96,6169.69,28.53,113.57,0.351,1.027,2.32,Yes,34.56,Hospital E - Central Region,5537,12.11,04-08-2024,1.83,15,18,0,2025-08-28T17:03:03.786037
+ECG Monitor,Philips Ingenuity,644.36,16.47,94.29,0.146,1.093,2.06,No,23.48,Hospital B - North Region,690,3.25,09-03-2024,4.23,12,13,2,2025-08-28T17:03:04.782477
+ECG Monitor,Zoll R Series,915.33,25.77,114.13,0.551,0.711,3.87,Yes,68.04,Hospital H - North Region,3306,25.82,08-10-2024,27.76,10,15,2,2025-08-28T17:03:05.770687
+Defibrillator,Fresenius 4008,4664.87,18.81,94.4,0.882,0.525,1.81,Yes,66.83,Hospital B - South Region,3454,8.19,18-01-2024,14.22,17,10,0,2025-08-28T17:03:06.761867
+Dialysis Machine,Zoll R Series,8430.42,21.51,107.58,0.934,0.981,3.09,Yes,41.29,Hospital D - South Region,39,4.69,26-07-2024,26.87,17,13,0,2025-08-28T17:03:07.759299
+Dialysis Machine,GE Logiq E9,4693.81,36.33,91.3,0.835,0.703,0.11,No,49.13,Hospital A - Central Region,998,7.44,23-05-2025,7.1,9,20,0,2025-08-28T17:03:08.808887
+Infusion Pump,HeartStart FRx,9861.65,34.76,117.36,0.429,0.482,0.83,No,35.13,Hospital E - East Region,6481,4.62,01-11-2024,34.97,10,19,0,2025-08-28T17:03:09.810255
+Dialysis Machine,Zoll R Series,7913.39,26.68,109.47,0.438,1.152,2.74,No,48.88,Hospital D - Central Region,7723,3.15,14-02-2025,19.79,11,3,0,2025-08-28T17:03:10.813633
+Patient Ventilator,HeartStart FRx,6593.5,35.04,103.68,0.818,0.988,4.03,Yes,43.46,Hospital F - East Region,6245,18.74,07-10-2024,14.27,8,6,0,2025-08-28T17:03:11.807610
+Patient Ventilator,GE Aisys,8769.34,16.94,90.17,0.258,0.913,2.11,No,21.81,Hospital C - West Region,3735,2.03,01-05-2024,11.35,5,11,0,2025-08-28T17:03:12.801693
+Patient Ventilator,GE Aisys,6034.21,27.41,105.93,0.806,0.268,4.73,No,66.01,Hospital D - South Region,3498,3.24,06-07-2024,6.51,19,3,0,2025-08-28T17:03:13.801142
+Infusion Pump,HeartStart FRx,1311.92,30.8,93.22,0.278,1.031,3.19,Yes,61.89,Hospital F - South Region,1507,21.8,02-02-2025,3.97,1,20,0,2025-08-28T17:03:14.795782
+Anesthesia Machine,Lifepak 20,7807.49,35.79,117.16,0.434,0.96,1.94,No,49.19,Hospital H - West Region,9778,4.06,04-04-2025,0.94,10,15,0,2025-08-28T17:03:15.787725
+Patient Ventilator,Philips EPIQ,9604.5,21.51,90.25,0.701,1.494,1.83,No,69.13,Hospital B - Central Region,6367,5.41,01-11-2023,17.3,11,18,0,2025-08-28T17:03:16.780478
+Patient Ventilator,Hamilton G5,7314.88,22.76,100.72,0.208,0.654,3.87,Yes,60.0,Hospital G - East Region,3572,14.6,05-04-2024,22.68,19,19,2,2025-08-28T17:03:17.775990
+Infusion Pump,Lifepak 20,9015.52,36.81,114.06,0.289,0.604,0.03,No,24.78,Hospital A - West Region,10738,23.18,18-03-2024,15.31,0,18,0,2025-08-28T17:03:18.839637
+Ultrasound Machine,Drager Fabius Trio,1200.26,17.27,100.58,0.181,1.004,1.81,Yes,56.79,Hospital F - West Region,1338,21.48,02-11-2023,12.58,7,6,2,2025-08-28T17:03:19.838883
+Patient Ventilator,Philips EPIQ,8905.63,38.26,99.7,0.879,0.897,4.01,No,36.04,Hospital E - North Region,2893,4.92,28-02-2025,0.12,4,1,0,2025-08-28T17:03:20.825382
+Ultrasound Machine,Philips EPIQ,7152.23,36.37,109.86,0.259,1.48,0.36,No,47.72,Hospital C - West Region,3047,13.62,09-08-2024,29.22,7,17,0,2025-08-28T17:03:21.828049
+Patient Ventilator,Philips Ingenuity,1651.62,34.87,103.87,0.732,1.04,2.84,No,39.86,Hospital F - East Region,8799,4.09,30-11-2024,9.53,15,19,0,2025-08-28T17:03:22.823188
+Anesthesia Machine,GE MAC 2000,9687.17,22.11,101.75,0.305,1.327,2.01,Yes,25.06,Hospital E - North Region,5359,14.65,20-03-2025,27.73,15,3,0,2025-08-28T17:03:23.808459
+Ultrasound Machine,Lifepak 20,782.15,32.1,104.03,0.606,0.259,2.78,Yes,44.22,Hospital B - North Region,10965,12.12,02-06-2024,15.48,2,16,0,2025-08-28T17:03:24.804223
+Defibrillator,Baxter AK 96,2246.06,20.93,112.92,0.747,1.283,2.03,Yes,39.07,Hospital F - South Region,946,8.89,24-10-2024,32.24,7,17,0,2025-08-28T17:03:25.803851
+Defibrillator,Philips HeartStrart,140.25,33.72,117.16,0.195,1.193,4.34,Yes,54.2,Hospital E - South Region,420,1.26,31-07-2025,20.8,7,22,0,2025-08-28T17:03:26.799218
+Infusion Pump,Philips Ingenuity,2645.58,27.5,105.35,0.603,1.188,2.46,No,57.93,Hospital B - North Region,7421,12.26,27-02-2024,34.21,10,5,2,2025-08-28T17:03:27.805227
+Patient Ventilator,Siemens S2000,7411.59,30.59,91.68,0.746,0.729,2.25,No,67.3,Hospital G - South Region,7074,11.72,15-05-2024,30.67,3,7,0,2025-08-28T17:03:28.796956
+Ultrasound Machine,Philips EPIQ,8978.43,23.97,97.91,0.871,1.378,4.1,Yes,22.72,Hospital E - Central Region,6477,24.76,15-05-2025,15.21,4,7,0,2025-08-28T17:03:29.804736
+Defibrillator,Zoll R Series,2371.52,22.92,101.39,0.309,1.4,4.99,Yes,60.31,Hospital D - East Region,2499,3.51,28-11-2023,13.04,4,9,0,2025-08-28T17:03:30.810047
+Anesthesia Machine,Drager Fabius Trio,3820.16,33.86,112.71,0.458,0.368,2.34,No,24.13,Hospital D - South Region,420,17.99,28-05-2024,30.62,0,4,2,2025-08-28T17:03:31.814039
+CT Scanner,Philips Ingenuity,136.48,35.32,114.81,0.349,0.201,2.95,No,66.54,Hospital F - Central Region,1271,24.1,06-07-2025,17.05,6,13,0,2025-08-28T17:03:32.799972
+CT Scanner,Puritan Bennett 980,6882.01,20.36,105.86,0.061,1.424,2.58,Yes,53.81,Hospital E - West Region,2617,24.07,25-05-2025,21.62,5,22,0,2025-08-28T17:03:33.815923
+ECG Monitor,Baxter Flo-Gard,7263.2,36.1,99.93,0.152,0.184,4.64,No,57.98,Hospital D - North Region,7738,19.64,30-12-2024,26.06,12,12,2,2025-08-28T17:03:34.808059
+Dialysis Machine,Zoll R Series,9540.33,34.44,108.65,0.341,0.977,0.72,Yes,50.03,Hospital C - West Region,6835,12.24,28-09-2024,35.55,8,9,0,2025-08-28T17:03:35.806694
+CT Scanner,Hamilton G5,9404.96,39.86,111.06,0.894,1.005,2.22,Yes,68.95,Hospital G - West Region,3566,5.1,13-01-2025,30.74,3,5,2,2025-08-28T17:03:36.802944
+CT Scanner,HeartStart FRx,9606.73,38.57,106.63,0.903,0.198,4.65,No,21.09,Hospital E - West Region,5758,2.88,16-02-2024,1.97,2,22,0,2025-08-28T17:03:37.906307
+Dialysis Machine,Philips Ingenuity,3873.09,23.07,100.89,0.214,0.11,2.63,No,64.37,Hospital D - South Region,10879,25.83,01-10-2023,3.08,10,10,0,2025-08-28T17:03:38.767396
+CT Scanner,Philips HeartStrart,1754.12,36.57,113.99,0.89,1.105,0.48,No,68.64,Hospital G - West Region,9077,10.71,05-07-2025,27.57,19,0,1,2025-08-28T17:03:39.775984
+Anesthesia Machine,NxStage System One,5008.62,39.27,108.74,0.053,1.236,2.59,No,57.03,Hospital C - East Region,5685,20.75,07-08-2024,18.75,1,2,1,2025-08-28T17:03:40.817139
+Anesthesia Machine,GE Aisys,7039.75,29.04,96.92,0.928,1.095,2.75,No,31.89,Hospital B - West Region,5001,0.66,08-05-2024,5.11,14,20,0,2025-08-28T17:03:41.816706
+Anesthesia Machine,Puritan Bennett 980,3593.55,35.2,95.1,0.784,0.878,1.63,Yes,38.58,Hospital H - North Region,1254,0.41,07-05-2024,28.85,4,16,0,2025-08-28T17:03:42.801906
+Ultrasound Machine,Drager Fabius Trio,6932.3,33.28,99.83,0.449,0.632,3.26,Yes,63.17,Hospital G - North Region,11018,17.1,24-12-2023,7.3,12,6,0,2025-08-28T17:03:43.792391
+Ultrasound Machine,Zoll R Series,4548.82,37.67,104.47,0.812,0.221,1.81,No,53.17,Hospital E - South Region,11500,16.11,23-09-2024,10.88,8,4,0,2025-08-28T17:03:44.835416
+ECG Monitor,Phillips PageWriter,2395.91,17.99,105.56,0.888,1.301,4.8,Yes,55.14,Hospital H - East Region,4307,13.86,05-08-2024,24.13,16,15,2,2025-08-28T17:03:45.825244
+CT Scanner,Baxter Flo-Gard,5732.04,17.51,93.4,0.691,0.27,1.67,Yes,62.82,Hospital C - West Region,2963,17.16,04-03-2024,33.53,2,8,0,2025-08-28T17:03:46.823907
+Ultrasound Machine,NxStage System One,8224.62,40.0,99.25,0.094,1.298,3.39,Yes,41.26,Hospital B - Central Region,11033,17.08,23-08-2024,5.9,14,6,0,2025-08-28T17:03:47.822014
+Anesthesia Machine,Drager V500,7514.75,26.04,100.92,0.719,0.22,1.82,Yes,38.37,Hospital F - West Region,4574,18.68,05-07-2024,1.79,10,7,0,2025-08-28T17:03:48.774087
+ECG Monitor,Philips HeartStrart,4233.57,18.47,97.83,0.13,1.493,4.99,No,33.08,Hospital H - North Region,4193,22.36,13-02-2024,9.83,19,0,1,2025-08-28T17:03:49.774135
+Infusion Pump,Baxter Flo-Gard,9102.53,29.57,118.54,0.24,0.309,2.46,No,64.36,Hospital B - Central Region,8543,18.26,30-07-2024,0.89,15,18,0,2025-08-28T17:03:50.774831
+ECG Monitor,NxStage System One,2408.13,37.31,105.87,0.407,0.293,2.92,Yes,45.36,Hospital F - Central Region,72,15.37,10-12-2024,34.76,5,10,2,2025-08-28T17:03:51.773756
+Infusion Pump,Siemens S2000,1065.66,34.63,106.62,0.502,0.328,1.81,Yes,24.35,Hospital G - Central Region,10762,23.59,26-10-2023,7.55,2,17,0,2025-08-28T17:03:52.767020
+Defibrillator,Alaris GH,563.28,18.45,104.88,0.934,1.0,4.67,Yes,30.92,Hospital D - West Region,975,16.12,02-07-2025,34.83,12,11,0,2025-08-28T17:03:53.868159
+Ultrasound Machine,GE Aisys,9817.77,17.58,108.61,0.967,1.225,3.83,Yes,53.91,Hospital D - North Region,8069,11.43,11-07-2025,3.61,8,12,0,2025-08-28T17:03:54.867558
+Patient Ventilator,Hamilton G5,5493.2,28.66,102.45,0.769,0.881,2.9,Yes,67.31,Hospital E - South Region,219,17.8,12-08-2024,5.03,10,13,2,2025-08-28T17:03:55.857900
+Defibrillator,Baxter AK 96,9247.82,34.46,108.22,0.466,0.426,1.1,No,42.77,Hospital G - West Region,2421,1.76,26-01-2024,26.04,16,20,0,2025-08-28T17:03:56.857129
+Dialysis Machine,Philips HeartStrart,9105.27,37.24,106.53,0.441,0.231,3.83,Yes,41.61,Hospital E - East Region,8913,13.52,17-04-2025,22.13,15,4,0,2025-08-28T17:03:57.845587
+Defibrillator,Siemens Acuson,5067.5,30.12,116.92,0.075,0.704,2.88,No,39.2,Hospital B - South Region,2680,8.22,09-01-2024,31.4,15,19,0,2025-08-28T17:03:58.806150
+CT Scanner,Baxter AK 96,3713.11,28.84,108.74,0.269,1.214,2.47,Yes,55.89,Hospital B - West Region,10021,23.41,03-09-2024,0.44,8,0,0,2025-08-28T17:03:59.818145
+ECG Monitor,Puritan Bennett 980,4214.78,36.25,113.97,0.812,0.188,4.0,No,29.14,Hospital D - Central Region,1378,25.05,13-11-2023,15.94,1,1,1,2025-08-28T17:04:00.818534
+Patient Ventilator,NxStage System One,1196.98,31.36,92.1,0.272,0.92,2.01,No,33.14,Hospital F - West Region,3296,9.75,20-05-2025,30.15,9,6,2,2025-08-28T17:04:01.808338
+Infusion Pump,Zoll R Series,8341.28,22.4,106.71,0.937,0.158,1.27,No,30.03,Hospital E - West Region,4932,4.82,11-10-2024,30.26,2,17,0,2025-08-28T17:04:02.804553
+Dialysis Machine,Philips EPIQ,7052.14,34.24,106.83,0.897,0.315,4.82,No,55.91,Hospital F - West Region,10205,15.01,13-01-2025,23.2,2,21,0,2025-08-28T17:04:03.798450
+ECG Monitor,Phillips PageWriter,6921.31,25.41,102.71,0.84,0.307,3.07,No,44.25,Hospital G - Central Region,6553,5.24,09-10-2024,16.5,10,4,2,2025-08-28T17:04:04.795723
+Anesthesia Machine,GE Logiq E9,4135.83,26.95,106.39,0.387,0.87,2.46,Yes,36.36,Hospital F - Central Region,5402,14.76,28-04-2024,13.23,19,4,2,2025-08-28T17:04:05.784314
+CT Scanner,Datex Ohmeda S5,3530.27,17.58,117.05,0.745,0.95,1.75,Yes,25.11,Hospital A - North Region,6592,6.47,17-04-2024,22.48,1,13,0,2025-08-28T17:04:06.782121
+Ultrasound Machine,Baxter AK 96,7805.17,23.09,98.32,0.206,0.997,1.9,Yes,55.81,Hospital E - North Region,979,22.97,21-08-2024,9.87,13,11,0,2025-08-28T17:04:07.880800
+Dialysis Machine,Drager V500,1015.22,25.56,95.75,0.607,0.985,2.01,Yes,44.11,Hospital H - North Region,6714,7.75,28-10-2023,5.2,10,19,0,2025-08-28T17:04:08.851314
+Ultrasound Machine,Smiths Medfusion,5542.16,17.25,112.09,0.795,0.683,4.01,No,48.89,Hospital D - North Region,8006,24.98,05-01-2024,13.58,7,13,0,2025-08-28T17:04:09.848914
+ECG Monitor,Drager V500,7948.16,23.2,96.75,0.825,0.885,2.26,No,53.18,Hospital F - South Region,3292,5.84,21-12-2024,31.98,0,7,2,2025-08-28T17:04:10.843818
+Anesthesia Machine,Baxter Flo-Gard,8681.4,32.79,106.12,0.116,1.46,0.44,Yes,62.41,Hospital H - Central Region,11674,20.8,24-05-2025,16.61,14,1,0,2025-08-28T17:04:11.829624
+CT Scanner,Baxter AK 96,1649.39,24.22,101.48,0.83,0.233,2.69,No,34.95,Hospital D - West Region,7498,18.67,19-09-2024,8.34,9,16,0,2025-08-28T17:04:12.847371
+Patient Ventilator,Baxter AK 96,5283.45,24.58,97.03,0.21,0.248,1.51,Yes,23.65,Hospital E - North Region,8250,15.37,14-05-2024,31.08,11,18,0,2025-08-28T17:04:13.836039
+Patient Ventilator,HeartStart FRx,7134.23,31.54,110.31,0.822,0.99,1.75,Yes,60.54,Hospital A - North Region,1260,3.57,18-05-2025,30.4,10,17,0,2025-08-28T17:04:14.833816
+Anesthesia Machine,Siemens Acuson,9249.58,17.25,112.37,0.788,0.862,3.11,No,62.71,Hospital G - South Region,9544,18.51,22-04-2025,3.12,11,20,0,2025-08-28T17:04:15.839847
+Anesthesia Machine,Philips HeartStrart,4808.3,31.93,118.25,0.145,0.19,0.4,Yes,33.79,Hospital H - North Region,9192,5.3,28-09-2023,33.5,5,4,0,2025-08-28T17:04:16.835716
+Infusion Pump,HeartStart FRx,7637.69,39.57,107.07,0.009,0.992,4.83,Yes,58.67,Hospital B - East Region,8267,1.02,21-01-2024,22.5,8,16,0,2025-08-28T17:04:17.840227
+Defibrillator,Philips EPIQ,8332.72,36.88,106.28,0.517,0.586,0.44,No,53.44,Hospital H - East Region,9810,11.16,01-10-2024,10.93,4,7,0,2025-08-28T17:04:18.882387
+Anesthesia Machine,Philips EPIQ,2626.56,35.04,96.71,0.329,1.146,3.05,Yes,68.5,Hospital A - South Region,2483,18.3,27-02-2025,29.57,16,1,2,2025-08-28T17:04:19.876085
+Defibrillator,Puritan Bennett 980,7270.06,37.94,110.55,0.27,0.963,1.24,No,25.35,Hospital E - South Region,826,23.18,10-12-2024,1.21,5,1,0,2025-08-28T17:04:20.871207
+Infusion Pump,Philips EPIQ,9283.44,32.81,97.0,0.09,0.841,4.55,Yes,32.25,Hospital E - West Region,7905,13.45,30-03-2024,35.48,8,16,0,2025-08-28T17:04:21.858194
+Anesthesia Machine,Smiths Medfusion,1257.82,17.62,109.59,0.283,0.361,1.36,Yes,67.41,Hospital C - South Region,5527,11.64,30-04-2025,10.52,18,14,1,2025-08-28T17:04:22.857576
+Infusion Pump,Baxter Flo-Gard,7824.06,37.23,118.08,0.331,1.174,0.91,Yes,27.46,Hospital G - Central Region,5736,23.8,08-09-2023,11.29,11,15,0,2025-08-28T17:04:23.840310
+Defibrillator,GE MAC 2000,4389.76,20.1,111.76,0.627,1.164,3.58,Yes,45.74,Hospital H - South Region,6171,24.84,11-02-2025,32.69,14,15,0,2025-08-28T17:04:24.838957
+Patient Ventilator,Baxter AK 96,5651.49,19.62,96.99,0.632,0.914,3.23,Yes,27.14,Hospital H - North Region,8781,4.81,28-07-2025,1.06,4,3,0,2025-08-28T17:04:25.836762
+Defibrillator,Baxter Flo-Gard,4568.05,22.5,91.87,0.342,1.425,2.63,Yes,36.88,Hospital G - South Region,2775,3.16,20-02-2024,7.02,16,17,0,2025-08-28T17:04:26.827876
+Infusion Pump,GE Logiq E9,2283.11,22.06,94.5,0.892,1.083,2.11,Yes,62.8,Hospital G - North Region,1426,2.58,07-02-2024,11.38,9,3,2,2025-08-28T17:04:27.823992
+Ultrasound Machine,Lifepak 20,953.54,26.41,103.23,0.913,0.152,0.8,Yes,28.02,Hospital G - Central Region,427,14.75,25-07-2025,14.67,2,20,0,2025-08-28T17:04:28.879361
+ECG Monitor,GE Logiq E9,6200.21,33.11,93.58,0.341,0.293,2.02,Yes,32.03,Hospital G - Central Region,4436,14.16,01-03-2024,27.64,15,9,2,2025-08-28T17:04:29.880367
+Infusion Pump,Drager Fabius Trio,3449.14,37.99,100.25,0.554,1.177,2.78,Yes,51.18,Hospital B - North Region,5617,0.25,23-09-2023,7.54,1,8,0,2025-08-28T17:04:30.859419
+Ultrasound Machine,Zoll R Series,9997.91,21.18,93.66,0.111,0.178,2.3,No,61.7,Hospital F - South Region,4490,10.16,17-11-2023,14.97,6,12,0,2025-08-28T17:04:31.852684
+ECG Monitor,Hamilton G5,9819.1,21.16,109.1,0.758,1.134,2.61,Yes,41.77,Hospital D - East Region,6930,14.84,09-09-2024,4.61,7,19,2,2025-08-28T17:04:32.856197
+CT Scanner,Alaris GH,3205.55,27.32,108.62,0.358,0.486,4.64,No,58.53,Hospital D - South Region,4634,16.28,10-07-2024,25.14,16,12,0,2025-08-28T17:04:33.858500
+Anesthesia Machine,Philips HeartStrart,1598.28,19.78,116.31,0.084,0.426,1.12,Yes,66.73,Hospital F - South Region,7595,20.57,08-12-2024,3.88,17,7,0,2025-08-28T17:04:34.846575
+CT Scanner,Siemens S2000,8803.75,22.99,90.4,0.725,0.369,1.1,Yes,67.11,Hospital A - West Region,10953,8.89,29-01-2024,0.55,8,20,0,2025-08-28T17:04:35.847719
+Patient Ventilator,Puritan Bennett 980,3159.79,39.07,102.4,0.818,0.36,0.23,No,47.17,Hospital F - North Region,483,24.17,12-10-2024,14.03,2,17,0,2025-08-28T17:04:36.830947
+Infusion Pump,Alaris GH,1219.15,22.73,113.7,0.798,0.378,4.62,No,69.49,Hospital E - East Region,8831,4.8,05-05-2025,7.23,5,10,0,2025-08-28T17:04:37.829598
+Infusion Pump,Zoll R Series,7309.62,36.72,100.72,0.528,0.304,1.08,No,36.0,Hospital C - West Region,1915,23.58,28-01-2024,2.42,9,12,Low,2025-08-29T11:52:26.859613
+Defibrillator,Philips HeartStrart,2308.9,32.79,97.34,0.972,0.17,2.98,Yes,21.37,Hospital F - South Region,2920,11.33,27-12-2024,30.59,2,1,Low,2025-08-29T11:52:26.860140
+Anesthesia Machine,Hamilton G5,3355.94,30.95,99.07,0.117,0.509,2.13,No,36.24,Hospital B - East Region,588,21.62,03-04-2024,1.01,11,3,Low,2025-08-29T11:52:27.062017
+Dialysis Machine,Zoll R Series,5140.39,27.47,114.62,0.37,1.211,1.66,No,60.54,Hospital C - Central Region,8212,7.7,03-10-2023,29.72,2,4,Low,2025-08-29T11:52:27.062664
+Anesthesia Machine,Siemens S2000,8715.78,36.33,109.71,0.953,0.256,2.0,Yes,29.65,Hospital F - Central Region,8661,8.32,01-02-2024,26.73,14,21,High,2025-08-29T11:52:27.063289
+Patient Ventilator,Zoll R Series,5843.05,23.05,91.33,0.352,0.908,2.15,No,57.08,Hospital F - North Region,6930,22.91,21-08-2025,1.47,14,18,Medium,2025-08-29T11:52:27.265038
+Infusion Pump,Zoll R Series,759.39,23.47,91.46,0.78,1.343,3.35,No,56.76,Hospital F - North Region,9945,3.63,02-09-2024,0.91,0,20,Low,2025-08-29T11:52:27.466465
+Anesthesia Machine,Siemens Acuson,8136.52,19.61,114.1,0.266,1.2,0.07,No,46.83,Hospital G - West Region,10103,20.42,05-12-2024,11.14,16,7,Medium,2025-08-29T11:52:27.467377
+Infusion Pump,Datex Ohmeda S5,675.5,32.52,111.87,0.553,0.549,1.09,No,53.8,Hospital A - East Region,3475,6.74,09-07-2024,12.18,8,7,Low,2025-08-29T11:52:27.669241
+Defibrillator,GE Revolution,5781.14,23.42,104.42,0.779,1.112,1.06,No,50.02,Hospital G - North Region,3638,7.82,04-12-2023,22.92,5,12,Low,2025-08-29T11:52:27.669843
+Anesthesia Machine,Drager V500,9351.52,33.76,98.49,0.891,1.276,3.73,Yes,47.85,Hospital F - East Region,1144,18.99,07-01-2024,3.74,11,9,High,2025-08-29T11:52:29.093260
+Patient Ventilator,Philips EPIQ,5955.33,16.32,117.79,0.309,0.329,3.15,Yes,38.18,Hospital F - South Region,5773,22.5,15-03-2025,7.65,19,2,Low,2025-08-29T11:52:29.093579
+ECG Monitor,Puritan Bennett 980,6463.49,35.95,105.12,0.14,1.023,4.43,No,30.67,Hospital D - North Region,5020,17.82,15-02-2025,9.34,13,3,Medium,2025-08-29T11:52:29.093796
+Anesthesia Machine,Philips HeartStrart,4889.27,21.87,94.52,0.449,0.992,3.02,No,49.56,Hospital E - South Region,7613,15.91,12-11-2024,2.63,19,4,Low,2025-08-29T11:52:29.093923
+Ultrasound Machine,Hamilton G5,6236.0,37.86,98.92,0.568,0.28,1.27,Yes,60.87,Hospital D - East Region,3373,10.35,05-04-2024,23.99,13,14,Medium,2025-08-29T11:52:29.094097
+Ultrasound Machine,Baxter AK 96,520.49,33.38,109.93,0.653,0.685,2.02,No,36.94,Hospital B - South Region,5601,19.04,13-12-2023,22.8,12,21,Medium,2025-08-29T11:52:29.094686
+Patient Ventilator,Smiths Medfusion,704.19,37.01,99.6,0.748,1.197,4.04,Yes,50.27,Hospital G - West Region,7773,15.04,02-02-2024,15.19,12,16,High,2025-08-29T11:52:29.094970
+Patient Ventilator,Lifepak 20,2653.62,34.01,108.63,0.123,1.34,3.39,No,51.69,Hospital E - South Region,3189,4.06,14-05-2025,0.74,0,12,Low,2025-08-29T11:52:29.095154
+ECG Monitor,Drager V500,6328.15,21.32,92.87,0.123,0.409,1.32,No,38.01,Hospital D - East Region,11638,14.18,01-11-2023,31.36,12,8,Low,2025-08-29T11:52:29.095532
+Anesthesia Machine,Datex Ohmeda S5,850.3,22.43,94.21,0.751,0.299,1.2,Yes,22.76,Hospital E - South Region,10291,20.22,01-08-2024,5.73,2,22,Low,2025-08-29T11:52:29.095844
+Patient Ventilator,Fresenius 4008,2061.38,30.81,100.82,0.13,0.708,0.66,Yes,36.53,Hospital D - East Region,9844,1.89,15-02-2024,10.18,9,22,Low,2025-08-29T11:52:29.698288
+Anesthesia Machine,Alaris GH,4814.85,24.82,95.3,0.721,0.149,3.12,No,44.11,Hospital C - North Region,7093,8.1,09-05-2025,14.96,15,4,Low,2025-08-29T11:52:29.698684
+Ultrasound Machine,Siemens S2000,2380.06,38.52,102.82,0.931,1.196,3.89,No,45.73,Hospital D - South Region,8108,11.91,05-01-2024,3.07,6,2,Medium,2025-08-29T11:52:29.699187
+ECG Monitor,Datex Ohmeda S5,7041.2,20.4,91.78,0.722,0.393,4.59,Yes,41.98,Hospital F - West Region,5879,13.75,18-04-2024,23.73,16,7,Low,2025-08-29T11:52:29.699570
+Anesthesia Machine,GE Logiq E9,6317.94,31.84,119.25,0.922,0.587,1.16,No,31.34,Hospital C - West Region,2530,15.43,20-01-2024,24.23,10,16,Medium,2025-08-29T11:52:29.699949
+ECG Monitor,Philips EPIQ,6536.62,30.67,111.77,0.99,1.224,3.37,No,50.25,Hospital F - Central Region,8315,14.7,01-09-2023,18.54,12,5,Medium,2025-08-29T11:52:29.700242
+ECG Monitor,Fresenius 4008,9391.61,25.95,115.68,0.433,1.401,1.68,No,33.86,Hospital H - North Region,10076,2.68,16-06-2025,11.74,9,1,Low,2025-08-29T11:52:29.700526
+Ultrasound Machine,Alaris GH,5109.11,37.39,108.96,0.372,1.348,4.85,No,20.43,Hospital F - West Region,6060,14.1,20-09-2023,7.42,0,18,Medium,2025-08-29T11:52:29.700794
+CT Scanner,Philips Ingenuity,9300.39,27.72,110.19,0.956,0.735,0.42,No,68.46,Hospital D - East Region,2992,8.83,27-02-2025,31.12,19,22,High,2025-08-29T11:52:29.701084
+ECG Monitor,GE MAC 2000,5446.13,19.46,94.52,0.01,0.632,0.85,Yes,33.82,Hospital H - South Region,6340,3.52,17-05-2024,2.75,3,4,Low,2025-08-29T11:52:29.903307
+Defibrillator,Zoll R Series,5030.13,23.42,115.0,0.698,0.89,0.9,No,64.54,Hospital H - Central Region,11289,14.64,24-05-2025,25.84,4,3,Low,2025-08-29T11:52:30.544028
+Anesthesia Machine,Philips Ingenuity,5360.24,30.47,96.54,0.013,1.422,1.49,No,30.97,Hospital G - West Region,9704,18.96,11-04-2025,5.37,11,2,Low,2025-08-29T11:52:30.544586
+Defibrillator,Philips HeartStrart,5618.23,39.87,103.53,0.952,0.484,4.11,Yes,26.11,Hospital E - South Region,6827,13.3,13-03-2025,9.04,11,21,High,2025-08-29T11:52:30.545100
+Ultrasound Machine,Siemens S2000,4658.1,35.39,111.61,0.227,1.443,0.97,Yes,59.58,Hospital G - Central Region,5617,14.93,06-02-2024,4.86,3,7,Low,2025-08-29T11:52:30.545627
+Ultrasound Machine,Zoll R Series,3804.35,18.97,99.38,0.062,0.205,4.64,No,41.0,Hospital H - Central Region,4625,10.92,17-06-2024,7.79,12,5,Low,2025-08-29T11:52:30.546073
+CT Scanner,Siemens S2000,4871.72,25.22,93.35,0.927,1.418,3.09,Yes,24.38,Hospital D - South Region,887,12.85,18-09-2023,17.23,9,7,Low,2025-08-29T11:52:30.546568
+Ultrasound Machine,Lifepak 20,5558.21,16.51,94.72,0.926,1.136,4.9,No,21.83,Hospital H - South Region,8217,17.54,22-09-2023,7.96,8,18,Medium,2025-08-29T11:52:30.647432
+CT Scanner,Lifepak 20,7216.82,20.29,103.27,0.752,1.349,2.38,Yes,20.01,Hospital B - East Region,668,16.23,27-10-2023,8.54,11,21,Medium,2025-08-29T11:52:30.648019
+Ultrasound Machine,Siemens Acuson,3407.89,17.2,99.37,0.855,1.481,3.89,No,66.36,Hospital A - South Region,11796,12.01,15-05-2025,29.81,6,8,Low,2025-08-29T11:52:30.648476
+Dialysis Machine,Zoll R Series,331.53,17.32,99.35,0.529,0.903,4.5,No,50.84,Hospital D - North Region,5220,16.43,20-12-2023,12.55,13,14,Low,2025-08-29T11:52:30.749826
+Dialysis Machine,Philips Ingenuity,8395.1,36.56,109.2,0.828,0.946,0.39,Yes,37.12,Hospital A - North Region,1879,20.98,15-12-2023,8.77,14,1,High,2025-08-29T11:52:31.552460
+Infusion Pump,Philips Ingenuity,5349.87,17.33,101.4,0.629,0.164,1.08,Yes,42.49,Hospital G - North Region,5099,12.29,24-02-2024,13.21,15,5,Low,2025-08-29T11:52:31.552795
+CT Scanner,Drager Fabius Trio,2022.18,30.44,96.71,0.127,0.898,2.6,Yes,35.02,Hospital B - Central Region,2356,10.28,30-07-2024,18.83,4,13,Low,2025-08-29T11:52:31.553169
+Defibrillator,Puritan Bennett 980,1085.91,29.48,90.06,0.673,0.443,0.56,No,23.8,Hospital E - North Region,4205,18.05,01-06-2025,12.01,15,3,Low,2025-08-29T11:52:31.553556
+CT Scanner,Drager V500,7045.7,25.42,102.9,0.925,0.922,0.15,Yes,20.21,Hospital F - West Region,300,16.23,20-07-2025,28.33,0,13,Low,2025-08-29T11:52:31.554106
+Patient Ventilator,Smiths Medfusion,4208.87,32.84,105.99,0.165,0.41,0.05,Yes,22.32,Hospital D - East Region,6018,14.84,27-08-2024,20.45,4,20,Low,2025-08-29T11:52:31.655208
+Infusion Pump,Drager V500,6494.46,21.51,96.77,0.929,1.18,1.06,No,42.36,Hospital F - West Region,8733,11.28,05-01-2024,22.99,14,15,Medium,2025-08-29T11:52:31.655496
+Dialysis Machine,GE Revolution,4357.46,20.31,105.64,0.113,0.163,3.95,No,25.24,Hospital F - East Region,11381,24.87,15-08-2025,0.74,4,22,Low,2025-08-29T11:52:31.655702
+Dialysis Machine,Alaris GH,5667.97,31.9,110.18,0.737,0.555,4.46,No,41.87,Hospital A - South Region,8977,2.6,22-10-2024,21.96,11,8,Low,2025-08-29T11:52:31.756570
+ECG Monitor,Alaris GH,1953.91,21.52,101.61,0.095,0.923,2.13,Yes,32.0,Hospital E - West Region,8412,12.17,15-03-2024,2.96,5,20,Low,2025-08-29T11:52:31.857593
+Dialysis Machine,Datex Ohmeda S5,2361.77,25.68,117.31,0.935,0.583,3.6,No,41.55,Hospital D - Central Region,2467,22.69,15-11-2024,12.35,11,4,Medium,2025-08-29T11:52:32.571084
+Patient Ventilator,Fresenius 4008,2725.03,37.51,99.87,0.453,0.902,4.87,Yes,28.63,Hospital E - South Region,1772,2.44,29-01-2025,19.0,18,20,High,2025-08-29T11:52:32.571533
+Infusion Pump,Smiths Medfusion,7191.17,35.41,116.53,0.037,0.459,0.59,No,61.03,Hospital E - Central Region,7158,1.08,07-08-2025,8.05,16,1,Medium,2025-08-29T11:52:32.572063
+Anesthesia Machine,Lifepak 20,4789.44,17.0,99.92,0.466,0.21,4.74,Yes,47.89,Hospital A - North Region,8952,5.38,04-12-2023,1.89,9,17,Low,2025-08-29T11:52:32.572551
+Dialysis Machine,HeartStart FRx,5081.9,25.43,116.16,0.201,0.556,0.73,Yes,24.33,Hospital B - South Region,6271,2.04,31-12-2023,8.4,9,1,Low,2025-08-29T11:52:32.572842
+Patient Ventilator,Alaris GH,1867.93,39.84,103.42,0.916,0.435,2.46,Yes,32.15,Hospital H - East Region,7308,9.23,04-03-2024,10.55,14,4,High,2025-08-29T11:52:32.573231
+Infusion Pump,Smiths Medfusion,5960.53,31.36,118.89,0.091,0.681,1.74,No,36.89,Hospital C - South Region,10758,2.36,20-08-2024,33.29,6,0,Low,2025-08-29T11:52:32.573845
+Anesthesia Machine,HeartStart FRx,5275.33,21.28,99.65,0.624,1.258,3.52,Yes,48.07,Hospital H - West Region,1341,24.31,24-10-2023,13.94,17,21,Medium,2025-08-29T11:52:32.775065
+Patient Ventilator,Phillips PageWriter,1690.14,31.78,109.51,0.811,0.319,0.61,Yes,21.04,Hospital B - North Region,322,19.18,29-02-2024,22.88,6,20,Medium,2025-08-29T11:52:32.775859
+Infusion Pump,Philips Ingenuity,6799.47,22.46,104.29,0.406,1.247,3.07,No,59.2,Hospital E - North Region,9010,9.89,02-01-2024,11.1,7,3,Low,2025-08-29T11:52:32.776427
+Ultrasound Machine,Smiths Medfusion,1591.0,36.99,94.69,0.592,0.695,0.99,Yes,54.26,Hospital F - Central Region,1694,15.94,27-08-2025,13.03,12,2,Medium,2025-08-29T11:52:33.728936
+ECG Monitor,Lifepak 20,6987.71,26.48,115.95,0.476,1.421,4.14,No,63.41,Hospital D - Central Region,9865,10.13,26-01-2025,21.62,4,20,Low,2025-08-29T11:52:33.729380
+ECG Monitor,GE Aisys,6982.06,31.44,97.05,0.634,0.141,4.32,Yes,33.57,Hospital C - West Region,5847,11.37,15-08-2025,29.34,15,20,Medium,2025-08-29T11:52:33.729711
+Dialysis Machine,Alaris GH,5332.28,20.82,118.79,0.694,0.798,1.59,Yes,48.68,Hospital B - Central Region,4533,3.18,14-02-2025,30.88,17,9,Low,2025-08-29T11:52:33.730048
+Anesthesia Machine,Datex Ohmeda S5,7325.43,25.44,100.81,0.367,0.453,2.83,Yes,51.67,Hospital G - North Region,9678,3.88,18-01-2024,7.63,6,7,Low,2025-08-29T11:52:33.730245
+Dialysis Machine,Baxter Flo-Gard,9434.04,39.3,108.06,0.982,0.817,1.43,No,63.83,Hospital H - South Region,2699,13.22,06-01-2024,10.71,9,7,High,2025-08-29T11:52:33.730604
+Infusion Pump,Drager V500,7980.41,23.7,109.34,0.592,0.132,0.09,Yes,65.13,Hospital G - East Region,9722,8.96,28-10-2023,19.07,3,3,Low,2025-08-29T11:52:33.731004
+Anesthesia Machine,Smiths Medfusion,4418.25,36.75,103.35,0.452,1.226,4.61,No,30.94,Hospital A - West Region,293,26.29,23-06-2025,10.0,3,9,Low,2025-08-29T11:52:33.731355
+ECG Monitor,Smiths Medfusion,6463.43,33.86,117.25,0.653,1.072,2.1,No,47.01,Hospital F - Central Region,10487,20.7,22-12-2023,17.44,7,14,Low,2025-08-29T11:52:33.933115
+Dialysis Machine,Fresenius 4008,1542.67,24.55,102.01,0.287,0.764,1.73,No,58.33,Hospital B - West Region,2538,19.08,09-06-2025,20.67,0,20,Low,2025-08-29T11:52:33.933626
+Patient Ventilator,Fresenius 4008,9454.68,27.78,108.75,0.169,0.957,4.29,No,42.6,Hospital E - East Region,8049,22.64,28-06-2024,24.43,2,0,Low,2025-08-29T11:52:35.158222
+CT Scanner,Drager Fabius Trio,3788.25,37.01,115.5,0.061,1.17,3.65,Yes,28.66,Hospital H - West Region,4605,14.81,09-11-2024,11.61,17,20,High,2025-08-29T11:52:35.158629
+ECG Monitor,Hamilton G5,9833.52,33.87,106.18,0.258,0.609,1.08,Yes,34.65,Hospital G - South Region,9766,5.53,14-03-2024,14.83,18,15,Medium,2025-08-29T11:52:35.159206
+CT Scanner,Drager V500,1992.85,21.11,119.76,0.199,0.456,3.17,Yes,51.96,Hospital F - East Region,8174,3.62,05-11-2024,29.01,5,7,Low,2025-08-29T11:52:35.159580
+Patient Ventilator,Drager Fabius Trio,2349.3,39.33,103.38,0.943,0.115,0.73,No,61.98,Hospital H - West Region,4844,15.54,15-04-2025,15.33,12,2,High,2025-08-29T11:52:35.159929
+Infusion Pump,Zoll R Series,8911.71,29.42,93.73,0.537,0.826,0.38,Yes,23.18,Hospital G - East Region,4780,8.0,24-05-2025,19.26,2,8,Low,2025-08-29T11:52:35.160287
+Anesthesia Machine,NxStage System One,1745.0,24.6,119.1,0.114,0.368,3.23,No,39.89,Hospital G - South Region,10161,23.64,20-03-2025,16.58,0,12,Low,2025-08-29T11:52:35.160580
+Patient Ventilator,Zoll R Series,9368.89,29.8,117.41,0.373,1.099,2.0,No,37.06,Hospital A - West Region,10825,18.64,01-09-2023,31.04,16,13,Medium,2025-08-29T11:52:35.160964
+Dialysis Machine,Smiths Medfusion,8173.19,22.17,111.37,0.276,1.458,3.56,Yes,66.22,Hospital G - West Region,1255,21.61,31-05-2025,15.46,9,5,Low,2025-08-29T11:52:35.161305
+Infusion Pump,Lifepak 20,2453.46,35.71,97.52,0.459,1.358,0.42,No,30.13,Hospital A - West Region,4832,2.61,12-09-2023,12.69,19,7,Medium,2025-08-29T11:52:35.362491
+Patient Ventilator,Philips Ingenuity,4829.95,33.26,115.62,0.711,1.204,2.37,No,56.54,Hospital D - West Region,6347,24.6,21-11-2024,21.14,9,6,Low,2025-08-29T11:52:36.533500
+Patient Ventilator,Philips EPIQ,9612.85,35.21,109.45,0.532,0.657,4.0,No,64.34,Hospital D - North Region,2874,11.79,26-08-2024,33.15,2,6,Medium,2025-08-29T11:52:36.533862
+CT Scanner,Drager V500,3668.91,32.82,110.09,0.813,0.205,0.77,No,52.15,Hospital H - North Region,9210,6.45,01-11-2023,4.36,10,13,Low,2025-08-29T11:52:36.534152
+Ultrasound Machine,Lifepak 20,2320.97,30.45,112.14,0.474,0.754,1.73,Yes,65.81,Hospital H - South Region,5448,17.24,11-12-2023,9.21,0,12,Low,2025-08-29T11:52:36.534535
+Infusion Pump,Hamilton G5,8724.23,28.37,100.07,0.582,1.018,2.3,No,58.42,Hospital H - West Region,11869,17.08,15-02-2025,4.91,0,20,Medium,2025-08-29T11:52:36.535016
+Patient Ventilator,Fresenius 4008,1151.1,26.77,103.96,0.199,0.35,1.39,No,57.98,Hospital D - South Region,8900,1.05,20-10-2023,21.92,4,4,Low,2025-08-29T11:52:36.535448
+Infusion Pump,Hamilton G5,8634.72,18.33,110.2,0.234,0.789,0.42,Yes,27.0,Hospital E - East Region,11185,4.62,26-05-2024,22.42,1,13,Low,2025-08-29T11:52:36.535939
+Ultrasound Machine,GE Logiq E9,2517.87,26.06,90.66,0.351,0.692,1.42,No,68.71,Hospital G - Central Region,11158,6.3,04-07-2025,3.54,16,20,Medium,2025-08-29T11:52:36.536302
+Defibrillator,Baxter AK 96,6619.56,18.62,107.22,0.706,1.147,3.04,No,55.01,Hospital B - West Region,11469,14.16,07-05-2024,14.79,10,22,Low,2025-08-29T11:52:36.536675
+Infusion Pump,GE MAC 2000,5694.46,25.19,90.97,0.038,0.241,4.45,No,60.7,Hospital B - Central Region,9110,17.98,25-04-2024,12.51,17,8,Low,2025-08-29T11:52:36.537023
+Ultrasound Machine,Hamilton G5,6057.06,29.02,118.7,0.526,0.929,3.63,No,57.27,Hospital G - West Region,11358,1.74,13-09-2024,5.38,11,9,Low,2025-08-29T11:52:37.534500
+Ultrasound Machine,Smiths Medfusion,3367.25,29.22,115.63,0.068,0.923,4.09,Yes,29.85,Hospital A - East Region,3547,20.71,16-10-2023,5.55,7,20,Low,2025-08-29T11:52:37.535697
+CT Scanner,Datex Ohmeda S5,1008.55,38.5,92.73,0.517,0.948,0.2,Yes,22.18,Hospital H - Central Region,1612,25.4,06-05-2025,15.12,10,17,Medium,2025-08-29T11:52:37.536003
+Patient Ventilator,Zoll R Series,1365.22,30.64,114.17,0.497,1.049,0.76,No,49.71,Hospital E - Central Region,2867,11.62,10-07-2024,24.38,9,0,Low,2025-08-29T11:52:37.536315
+Patient Ventilator,Lifepak 20,8379.43,30.48,97.64,0.286,0.448,1.22,Yes,51.81,Hospital B - Central Region,8950,19.31,29-09-2023,5.3,3,1,Low,2025-08-29T11:52:37.536557
+ECG Monitor,Philips Ingenuity,1753.12,32.61,112.53,0.348,0.271,0.36,Yes,55.09,Hospital B - North Region,4741,4.7,06-10-2024,33.7,13,15,Low,2025-08-29T11:52:37.536870
+Patient Ventilator,GE MAC 2000,8184.21,16.39,107.71,0.567,0.692,1.32,Yes,49.32,Hospital D - North Region,615,1.21,25-08-2024,9.93,6,20,Medium,2025-08-29T11:52:37.537123
+Defibrillator,Drager Fabius Trio,3937.2,38.38,114.37,0.581,0.747,2.48,No,49.03,Hospital E - West Region,2966,3.91,10-10-2024,21.65,1,2,Low,2025-08-29T11:52:37.537364
+Patient Ventilator,Siemens Acuson,5678.56,35.56,105.6,0.597,1.43,2.02,Yes,21.1,Hospital F - West Region,3944,9.38,20-08-2025,23.85,19,12,Medium,2025-08-29T11:52:37.537567
+Infusion Pump,GE Revolution,6307.29,22.04,97.49,0.33,1.417,4.72,No,29.22,Hospital F - North Region,8385,6.95,16-11-2024,0.7,6,6,Low,2025-08-29T11:52:37.537790

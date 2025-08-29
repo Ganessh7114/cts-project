@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Model Info</title>
+  <link rel="stylesheet" href="css/api_style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>/api/model-info</h1>
+    <button onclick="loadModel()">Refresh</button>
+    <pre id="output">{}</pre>
+    <a class="nav-btn" href="index.html">⬅ Back</a>
+  </div>
+  <script>
+    async function loadModel() {
+      const res = await fetch("/api/model-info");
+      const data = await res.json();
+      document.getElementById("output").textContent = JSON.stringify(data, null, 2);
+    }
+    window.onload = loadModel;
+  </script>
+</body>
+</html>

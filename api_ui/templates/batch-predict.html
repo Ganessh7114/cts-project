@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="page-title">/api/batch-predict</h1>
+<p class="muted">Paste a JSON array of records with the same 8 keys.</p>
+
+<textarea id="batch-json" class="textarea" rows="12" placeholder='[
+  {"temperature":37,"vibration":0.2,"error_logs":1,"runtime_hours":1200,"device_age":2,"repairs":0,"pressure":101.5,"current_draw":1.1},
+  {"temperature":45,"vibration":0.9,"error_logs":3,"runtime_hours":9800,"device_age":6,"repairs":2,"pressure":106.2,"current_draw":1.6}
+]'></textarea>
+<div class="actions">
+  <button class="btn" id="send-batch">Send Batch</button>
+</div>
+
+<pre id="result" class="result"></pre>
+
+<script>
+  document.getElementById('send-batch').addEventListener('click', async () => {
+    try {
+      const arr = JSON.parse(document.getElementById('batch-json').value.trim());
+      if (!Array.isArray(arr)) throw new Error("Input must be a JSON array.");
+      await fetchPOST('/api/batch-predict', { batch: arr }, '#result');
+    } catch (e) {
+      renderJSON('#result', { error: e.message });
+    }
+  });
+</script>
+{% endblock %}

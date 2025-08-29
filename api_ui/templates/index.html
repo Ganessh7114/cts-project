@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="page-title">API Console</h1>
+<p class="muted">Use these pages to call your Flask endpoints and view results.</p>
+
+<section class="grid">
+  <a class="card" href="{{ url_for('ui.ui_status') }}">
+    <h3>/api/status</h3><p>Connection & workspace state</p>
+  </a>
+  <a class="card" href="{{ url_for('ui.ui_model_info') }}">
+    <h3>/api/model-info</h3><p>Deployment & endpoint info</p>
+  </a>
+  <a class="card" href="{{ url_for('ui.ui_predict') }}">
+    <h3>/api/predict</h3><p>Single prediction (POST)</p>
+  </a>
+  <a class="card" href="{{ url_for('ui.ui_batch_predict') }}">
+    <h3>/api/batch-predict</h3><p>Batch predictions (POST)</p>
+  </a>
+  <a class="card" href="{{ url_for('ui.ui_reconnect') }}">
+    <h3>/api/reconnect</h3><p>Re-auth to Azure ML (POST)</p>
+  </a>
+  <a class="card" href="{{ url_for('ui.ui_health') }}">
+    <h3>/api/health</h3><p>Simple health check (GET)</p>
+  </a>
+</section>
+{% endblock %}

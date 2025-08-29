@@ -1,0 +1,193 @@
+/* Scoped styles for API UI so it doesn't clash with your existing app */
+:root {
+  --api-bg: radial-gradient(1200px 800px at 0% 0%, #0f172a 0%, #020617 55%);
+  --api-card: rgba(15, 23, 42, 0.6);
+  --api-card-border: rgba(148, 163, 184, 0.2);
+  --api-text: #e5e7eb;
+  --api-sub: #94a3b8;
+  --api-accent: #22d3ee;
+  --api-good: #22c55e;
+  --api-warn: #f59e0b;
+  --api-bad: #ef4444;
+  --api-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+#api-ui {
+  min-height: 100vh;
+  background: var(--api-bg);
+  color: var(--api-text);
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.api-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 28px 16px 60px;
+}
+
+.api-nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(8px);
+  background: linear-gradient(180deg, rgba(2,6,23,0.9) 0%, rgba(2,6,23,0.6) 100%);
+  border-bottom: 1px solid var(--api-card-border);
+}
+
+.api-nav-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 12px 16px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.api-nav .brand {
+  font-weight: 800;
+  letter-spacing: 0.4px;
+  background: linear-gradient(90deg, #22d3ee, #60a5fa);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.api-pill {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: var(--api-card);
+  border: 1px solid var(--api-card-border);
+  text-decoration: none;
+  color: var(--api-text);
+  font-size: 13px;
+  transition: transform 0.15s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
+.api-pill:hover {
+  transform: translateY(-1px);
+  background: rgba(15, 23, 42, 0.8);
+  border-color: rgba(148, 163, 184, 0.35);
+}
+
+.api-hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.api-card {
+  background: var(--api-card);
+  border: 1px solid var(--api-card-border);
+  border-radius: 16px;
+  box-shadow: var(--api-shadow);
+}
+
+.api-card .head {
+  padding: 16px 18px 10px;
+  border-bottom: 1px solid var(--api-card-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.api-card .head h2 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.api-card .body {
+  padding: 18px;
+}
+
+.api-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+@media (max-width: 920px) {
+  .api-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+  .api-grid { grid-template-columns: 1fr; }
+}
+
+.api-kv {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 10px 14px;
+  align-items: center;
+}
+
+.api-kv .k { color: var(--api-sub); font-size: 13px; }
+.api-kv .v { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+
+.api-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--api-card-border);
+  background: rgba(2,6,23,0.6);
+  font-size: 12px;
+}
+
+.api-badge.ok { border-color: rgba(34,197,94,0.4); }
+.api-badge.warn { border-color: rgba(245,158,11,0.4); }
+.api-badge.bad { border-color: rgba(239,68,68,0.4); }
+
+.api-code {
+  background: #0b1220;
+  border: 1px solid var(--api-card-border);
+  border-radius: 12px;
+  padding: 14px;
+  overflow: auto;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.api-input, .api-select, .api-textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--api-card-border);
+  background: rgba(2,6,23,0.6);
+  color: var(--api-text);
+  outline: none;
+}
+
+.api-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+@media (max-width: 700px) { .api-row { grid-template-columns: 1fr; } }
+
+.api-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid rgba(96,165,250,0.35);
+  background: linear-gradient(180deg, rgba(37,99,235,0.25), rgba(37,99,235,0.1));
+  color: #dbeafe;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.15s ease, opacity 0.2s ease;
+}
+.api-btn:hover { transform: translateY(-1px); }
+.api-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.api-footer {
+  margin-top: 30px;
+  color: var(--api-sub);
+  font-size: 12px;
+  text-align: center;
+  opacity: 0.8;
+}

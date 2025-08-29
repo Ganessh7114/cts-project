@@ -1,0 +1,9 @@
+name: medical-device-env
+dependencies:
+  - python=3.9
+  - pip:
+    - scikit-learn
+    - xgboost
+    - pandas
+    - joblib
+    - azureml-defaults
