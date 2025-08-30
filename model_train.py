@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-
+import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, OneHotEncoder, LabelEncoder
 from sklearn.compose import ColumnTransformer
@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score, f1_score, classification_report
 from xgboost import XGBClassifier # type: ignore
 
 # Load dataset
-df = pd.read_csv("SynDatasetC.csv")
+df = pd.read_csv("SynDataset.csv")
 
 # Drop leakage columns
 leakage_cols = ["PredictedStatus", "PredictedTimeToFailure", "PerformanceScore"]
@@ -134,3 +134,6 @@ f1 = f1_score(y_test, y_pred, average="weighted")
 
 print(f"✅ XGBoost - Accuracy: {accuracy:.4f}, F1 Score: {f1:.4f}")
 print(classification_report(y_test, y_pred, target_names=encoder.classes_))
+
+
+joblib.dump(pipeline, "xgboost_pipeline.pkl")

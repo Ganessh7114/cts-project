@@ -1,0 +1,6 @@
+$schema: https://azuremlschemas.azureedge.net/latest/environment.schema.json
+
+name: sklearn-xgb-env
+description: Environment for XGBoost + scikit-learn 1.5 pipeline
+image: mcr.microsoft.com/azureml/openmpi5.0-ubuntu24.04:20250810.v1
+conda_file: conda_dependencies.yaml
