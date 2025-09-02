@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8fafc;
+}
+
+/* Ensure SVG icons are properly constrained */
+svg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Override any default icon sizing */
+.icon-sm svg {
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.icon-md svg {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.icon-lg svg {
+  width: 32px !important;
+  height: 32px !important;
+}

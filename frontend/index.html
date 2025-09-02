@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Medical Equipment Failure Prediction</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Medical Equipment Failure Dashboard</h1>
+    <div id="api-status" class="status-offline">API Offline</div>
+  </header>
+
+  <main>
+    <!-- Device cards -->
+    <section id="device-section">
+      <h2>Devices</h2>
+      <div id="device-grid" class="device-grid"></div>
+    </section>
+
+    <!-- Risk distribution chart -->
+    <section id="chart-section">
+      <h2>Risk Distribution</h2>
+      <canvas id="risk-chart"></canvas>
+    </section>
+  </main>
+
+  <!-- Toast notifications -->
+  <div id="toast-container"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

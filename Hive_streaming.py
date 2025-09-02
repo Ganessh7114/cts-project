@@ -25,11 +25,11 @@ logger = logging.getLogger("MQTT_ML_Streaming")
 
 load_dotenv()
 
-BROKER = "YOUR_KEY"
+BROKER = "863b2bea6a5246238f2ae57eac2dc400.s1.eu.hivemq.cloud"
 PORT = 8883
-USERNAME = "YOUR_KEY"
-PASSWORD = "YOUR_KEY"
-TOPIC = "YOUR_KEY"
+USERNAME = "Bharathnath"
+PASSWORD = "#Bharath123"
+TOPIC = "iot/failure"
 
 fake = Faker()
 iot_queue = Queue()
